@@ -1,13 +1,13 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { } from './Main.css';
+import { } from '../../../../public/css/SuMenh/Main.css';
 import {
     BrowserRouter as Router,
     Switch,
     Route,
     Link
   } from "react-router-dom";
-  import SuMenhItem from '../SuMenhItem/SuMenhItem'
+//   import SuMenhItem from '../SuMenhItem/SuMenhItem'
 
 class SuMenh extends React.Component {
     render() {

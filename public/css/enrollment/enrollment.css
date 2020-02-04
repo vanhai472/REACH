@@ -1,0 +1,124 @@
+/*start slider*/
+.container{
+    width: 1140px;
+    margin: 0 auto;
+  }
+  
+  .title-tuyen-sinh{
+    font-size: 32px;
+    font-weight: 700;
+    color: #8a776a;
+    margin-bottom: 30px !important;
+  }
+  .slider-enrollment {
+      z-index: 0;
+      width: 1140px;
+      height: 400px;
+      position: relative; 
+      background-color: #fffbf2;
+      margin-bottom: 30px;
+    }
+      #temo .item-img{
+          margin: 0 10px;
+          /* width: 270px; */
+          height: 430px;
+          position: relative;
+      }
+      #temo .item-img:hover .button-enrollment{
+        opacity: 1;
+        visibility: visible;
+        overflow: visible;
+      }
+.button-enrollment{
+  position: absolute;
+  z-index: 999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+/* style button*/  
+.button-enrollment{
+  opacity: 0;
+  visibility: hidden;
+  overflow: hidden;
+}
+
+.Text-Button-enroller{
+  color:#fff;
+  background: #f36f2b;
+  padding:7px 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all .3s ease 0s;
+}
+.Text-Button-enroller:hover{
+  color:#f36f2b;
+  background: #fff;
+  border: 1px solid #f36f2b;
+  text-decoration: none;
+}
+    #temo div img {
+      width: 100%;
+      height: 380px;
+      position: relative;
+      text-align: center;
+  }
+  .title-class{
+    /* color: #8a776a; */
+    color: #fffbf2;
+    font-size: 20px;
+    line-height: 50px;
+    background-color: #810c10;
+    text-align: center;
+  }
+  /*   
+    #temo div img ~ p {
+      position: absolute;
+      top: 40px;
+      left: 1000px; }
+    
+    #temo div img ~ p img {
+      width: 60px;
+      height: auto; }
+    
+    #prev, #next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 100;
+      cursor: pointer;
+      border-radius: 50%; }
+    
+    #prev {
+      left: 10px; }
+    
+    #next {
+      right: 10px; }
+    
+    #prev i, #next i {
+      font-size: 30px;
+      border-radius: 50%; }
+    
+    #prev:hover i, #next:hover i {
+      background: lightblue;
+      color: white; }
+    
+    #all_pagination {
+      position: relative;
+      top: -20px; }
+    
+    #all_pagination span {
+      text-align: center;
+      border-radius: 50%;
+      cursor: pointer;
+      z-index: 100;
+      margin: 0 3px; }
+    
+    #all_pagination span:hover i {
+      color: white;
+      background: black; } */
+  
+    
+      

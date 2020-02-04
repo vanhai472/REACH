@@ -3,6 +3,12 @@ import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import NavHeader from '../Nav/Nav';
 import Banner from '../Banner/Banner';
+import SuMenh from '../SuMenh/SuMenh';
+import Tintuc from '../Tintuc/Tintuc';
+import Enrollment from '../enrollment/Enrollment';
+
+
+
 
 class Home extends Component {
   constructor() {
@@ -25,6 +31,9 @@ render() {
       <div>
         <NavHeader />
         <Banner />
+        <SuMenh />
+        <Tintuc />
+        <Enrollment />
         <Footer/>
       </div>
       )
