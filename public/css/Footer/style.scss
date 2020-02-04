@@ -1,0 +1,186 @@
+
+*{
+    padding: 0;
+    margin: 0 ;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    }
+    .z-foorter{
+        position: relative;
+        z-index: 900;
+        bottom: 0px;
+        width: 100%;
+    }
+// Đây là phần Body
+.body{
+    font-family: 'Roboto';
+    background:#fffbf2;
+    .head-title{
+        text-align: center;
+
+    }
+    .boxhocvien{
+        padding: 50px 0;
+        
+    }
+    img{
+        width: 100%;
+        padding-left:75px;
+    }
+    .content{
+        padding-top:80px;
+        .title{
+            text-align: center;
+            font-weight: 800;
+            padding-bottom: 20px;
+        }
+        .summary{
+            font-size:18px;
+            max-width: 500px;
+            padding-left: 50px;
+            font-weight: 600;
+        }
+        #viewmore{
+            margin-left: 440px; 
+            text-decoration: none;
+            font-size: 16px;  
+            font-weight: 800;
+        }
+    }
+}
+// Dat la Main
+.boxhocvien{
+    margin-top: 20px;
+    .img-boxhocvien{
+        height: 220px;
+        padding-top: 10px;
+
+        .img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+        h3{
+            margin: 10px 0px;
+        }
+        .content{
+            h3{
+                font-size:20px;
+                font-weight: 700;
+            }
+        #text{            
+            height: 142px;
+            overflow: hidden;
+            font-family: 'Roboto';
+            font-size: 18px;
+            font-weight: 700;
+            
+        }
+    }
+}
+// Đây là phần Footer
+.sub-foot{
+    background: #000;
+    .nav-bar-main{
+        padding:5px 0;
+        .nav-menu{
+            display: flex;
+            padding-top:10px;
+            .nav-item{
+                align-items: center;
+                justify-content: center;
+                font-size:16px;
+                text-decoration:none;
+                font-weight: 700;
+                margin-left:2em;
+                color:#88746b;
+            }
+            .nav-item:hover{
+                color:#fff;
+            }
+        }
+        .nav-menu-main{
+            .nav-menu-1{
+                list-style: none;
+                display: flex;
+                .nav-item1{
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 25px;
+                    padding:9px;       
+                    color:#88746b;             
+                }
+                .nav-item1:hover{
+                    color:#fff;
+                }
+            }
+        } 
+    }
+}
+footer{
+    clear: both;
+    background:rgb(70, 70, 70); 
+    .nav-bar-main-1{
+        .nav-col-main{
+            display: flex;
+            .nav-col-menu{
+                padding-top:50px;
+                justify-content: center;
+                align-items: center;
+            }
+            .nav-item2-1{
+                font-size: 16px;
+                font-weight: 700;
+                color:#88746b;
+            }
+            .nav-item2-2{
+                font-size: 14px;
+                color:rgb(175, 175, 175);
+            }
+            a{
+                text-decoration: none;
+                color:rgb(255, 187, 0)
+            }
+            .nav-item2-3:hover{
+                color:red;
+            }
+        }  
+        .nav-col-main1{
+            img{
+                padding-top:25px;
+                padding-left:25px;
+            }
+        } 
+    }
+    .text1{
+        color:orange;
+        font-weight: 700;
+    }
+    .text2{
+        color:red;
+        font-weight: 700;
+    }
+    .text3{
+        color:yellow;
+        font-weight: 700;
+    }
+    .text4{
+        color:brown;
+        font-weight: 700;
+    }
+    .text5{
+        color:white;
+        font-weight: 700;
+    }
+    p{
+        color:#88746b;
+        font-size:14px;
+    }
+    @for $i from 1 to 6{
+        .text#{$i}{
+            font-size:14px;
+        }
+    }
+}

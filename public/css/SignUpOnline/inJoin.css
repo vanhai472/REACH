@@ -1,0 +1,19 @@
+.form-input{
+    width: 90%;
+}
+.form-select{
+    width: 97%;
+}
+.Background-Images {
+    height: 786px !important;
+}
+.title-singUpOnline{
+    font-weight: 700;
+    font-size: 32px;
+    color: rgba(136, 116, 107, 0.8);
+    margin-bottom: 30px;
+}
+.sta{
+    color: #e96005;
+    margin-right: 10px;
+}

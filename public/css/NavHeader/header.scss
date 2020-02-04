@@ -1,0 +1,435 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+body{
+    background-color:  #fffbf2;
+    font-family: 'roboto';
+}
+.M-header{
+    margin-bottom: 70px;
+}
+.NavLink{
+    text-decoration: none;
+}
+// màu  của REACH
+$color-yellowT :#fecc53;
+$color-yellowD :#e69032;
+$color-Gray :#8a776a;
+$color-Dark-red :#810c10;
+$background: #fffbf2;
+// class bấm của li
+%list-item {
+    cursor: pointer;
+    margin: 10px;
+    color: $color-Gray ;
+    border-bottom: 1px solid rgba(136,116,107,0.6);
+}
+.active{
+    color: #fffbf2;
+}
+// sdt đầu trang
+// .tell-phone{
+//     background:#eb991b;
+//     width: 100%;
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     z-index: 999;
+//     //màu icon phone
+//     .white-icon-phone{
+//         color: #fffbf2;
+//         text-decoration: none;
+//     }
+//     .white-icon-phone:hover{
+//         text-decoration: none;
+//         color:#8a776a;
+//     }
+// }
+// .tell:hover .white-icon-phone{
+//     color:#8a776a;
+// }
+// gg,fa,mail,in, đầu trang
+// .ul-pagination{
+//     margin: 0px !important;
+//     .li-pagination{
+//         margin: 0px 15px;
+//     }
+// }
+ .img-logo{
+     height: 60px;
+          width: auto;
+ }
+// #nav-menu-page{
+//     padding: 0;
+// }
+
+// navigation
+#nav{
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background-color: $background !important;
+    width: 100%;
+    padding: 0px;
+}
+.navlinka{
+    padding: 3px;
+    margin: 0px 13px;
+    color: $color-Gray;
+}
+#menu-list{
+    list-style-type: none;
+    margin-bottom: 0;
+} .menu-item{ //li menu
+    cursor: pointer;
+    color: #88746b;
+    text-transform: uppercase;
+    font-weight: 600;
+    height: 100%;
+    padding-bottom: 7px;
+    margin-top: 25px;
+
+}
+.navlinka:hover {
+border-radius: 5px;
+}
+.menu-item:hover .navlinka{
+    color: $color-yellowD;
+
+}
+//li menu hover
+%hoverLi{
+    color:#fffbf2;
+    margin: 10px;
+    text-transform: none;
+    border-bottom: 1px solid rgba(136,116,107,0.6);
+}
+.menu-item:hover{
+color:white;
+
+}
+.menu-item:hover .caret-down{
+    color: $color-yellowD;
+    }
+
+// ẩn ul-item-list
+.hidden{
+        visibility: hidden;
+        position: absolute;
+        opacity: 0;
+        border: solid 1px #d3d3d3;
+        z-index: 900;
+        box-shadow: 0 6px 12px rgba(0,0,0,.175);
+        background-color: #fffbf2;
+        margin-top: 25px;
+        transition: .2s ease-out;
+        border-radius: 5px;
+}
+/*li ul-item*/
+.li-list-item{
+    @extend %hoverLi;
+}
+.li-list-item .a-li-list-item{
+    color: #8a776a ;
+    text-decoration: none;
+}
+.li-list-item:hover a{
+    color:#eb991b;
+}
+// hover menu-item ->list-item
+ul{
+   list-style-type: none;
+}
+.menu-item:hover .hidden{
+   visibility: visible;
+   opacity: 1;
+   margin-top: 10px;
+}
+//style li class two
+.ul-list-item .menu-item-item{
+   @extend %list-item;
+   text-transform: none;
+}
+.ul-list-item .menu-item-item:hover{
+   background: $color-Dark-red;
+   color: $color-yellowT ;
+}
+// start ul-hover-duble
+.li-hover-show-ul-hidden .text-hover-show-ul-hidden{
+    color: #8a776a ;
+}
+.li-hover-show-ul-hidden:hover .caret-right{
+    color: $color-yellowD ;
+}
+.li-hover-show-ul-hidden:hover .text-hover-show-ul-hidden{
+    text-decoration: none;
+}
+.caret-right{
+    color: #8a776a ;
+    margin-left: 5px;
+}
+.caret-down{
+    color: #8a776a ;
+    // margin-left: px;
+}
+.hidden-hover-duble{
+        visibility: hidden;
+         overflow: hidden;
+         position: absolute;
+         left: 208px;
+         top: 120px;
+         border: solid 1px #d3d3d3;
+              z-index: 999;
+              box-shadow: 0 6px 12px rgba(0,0,0,.175);
+              background-color: #fffbf2;
+              transition: .2s ease-out;
+              border-radius: 5px;
+              width: 200px;
+         .ul-hover-duble{
+            .li-hover-duble{
+                @extend %hoverLi;  
+            }
+            // màu chữ trong li-hover-duble
+            .li-hover-duble .a-hover-duble{
+                color: #8a776a ;
+                text-decoration: none;
+                }
+                .li-hover-duble:hover .a-hover-duble{
+                    color: #eb991b ;
+                    text-decoration: none;
+                    }
+         }         
+}
+
+//vị tri lớp học
+.class{
+    top: 1px;
+    left: 138px;
+}
+
+.singup{
+    top: 37px;
+    left: 138px;
+}
+
+.media{
+    top: 69px;
+    left: 138px;
+}
+
+.student{
+    top: 138px;
+    left: 185px;
+}
+// vị trí cùng tham gia
+.st4{
+    left: -199px;
+    top: 117px;
+}
+//hover show ul-dupbel hover
+.li-hover-show-ul-hidden:hover .hidden-hover-duble{
+    visibility: visible;
+    opacity: 1;
+}
+//----------------------------------------------------------------
+
+.breadcrumb{
+    padding: 10px 0;
+    background: transparent;
+    margin-top: 145px;
+
+    .pagination-item{
+        text-transform: uppercase;
+    font-size: 11px;
+    color: rgba(136, 116, 107, 0.8);
+    margin: 10px;
+    }
+}
+// fixed bottom
+.social-fixed-bottom{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    z-index: 9999;
+    //start chat
+    .chat{ 
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background: $color-yellowT;
+        position: relative;
+        top: 65px;
+        left: 0px;
+        text-align: center;
+        cursor: pointer;
+
+        #click-chatOnline:checked ~ .chatOnline{
+            visibility: visible;
+            opacity: 99999;
+        }
+        .click-checked{
+            display: none;
+        }
+        .chatOnline{
+            width: 350px;
+            background-color: $color-yellowT;
+            position: relative;
+            top: -600px;
+            left: 60px;
+            z-index: 999;
+            border-radius: 10px;
+            visibility: hidden;
+            opacity: 0;
+            transition: .2s ease-out;
+
+           .click-closed-chat-online{
+                float: right;
+                margin: 5px !important;
+                padding: 5px;
+                color: white;
+                cursor: pointer;
+            }
+            .click-closed-chat-online:hover{
+                background-color: $color-Dark-red;
+            }
+            .form-chat-online{
+                background-color: white;
+
+                .input-chat{
+                    padding: 5px 10px;
+                    margin: 10px 0px;
+                    width: 80%;
+
+                }
+            }
+            .icon-form-chat-online{
+                color: $color-Gray;
+                font-size: 100px;
+            }
+            .title-chat{
+                color: $color-Dark-red;
+                line-height: 30px;
+                font-size: 20px;
+               
+            }
+            .enter-conten{
+            border-radius: 10px;
+            width: 80%;
+            position: relative;
+            top: 6px;
+            padding: 0px 10px;
+            margin-bottom: 10px;
+            
+            }
+            .sen_mesenger_ofline{
+                background-color: $color-yellowD;
+                color: $background;
+                margin-bottom: 10px;
+            }
+        }
+        .sen_mesenger_ofline:hover{
+            background-color: $color-yellowT;
+        }
+
+       .label-cursor{
+           cursor: pointer;
+           height: 60px !important;
+       }
+      
+        .icon-chat{
+            font-size: 40px;
+            color: $background;
+            margin-top: 7px;
+            position: relative;
+            right: 0px;
+        }
+        .one-parent{
+            background-color: rgb(230, 73, 73);
+            width: 17px;
+            height: 22px;
+            border-radius: 8px;
+            position: relative;
+            top: -73px;
+            left: 45px;
+            .one{
+                color: $background;
+            }
+        }
+    }
+    .chat:hover{
+        background: #d8ad49;
+    }
+    //start seo-phone
+    .seo-phone{
+        background-color: $color-yellowD;
+        position: fixed;
+        bottom: 3px;
+        left: 40%;
+        cursor: pointer;
+        border-radius: 10px;
+        .calling{
+            color: $background;
+            font-size: 20px;
+            margin: 10px;
+        }
+    }
+    .seo-phone:hover{
+        background-color: #c0782c;
+    }
+    //start singup
+    .singUp-fixed{
+        background-color: $color-Dark-red;
+        position: fixed;
+        bottom: 3px;
+        right: 0;
+        cursor: pointer;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 20px;
+        color: $background;
+
+
+        .write{
+            font-size: 20px;
+            color: $background;
+            margin-left: 10px;
+        }
+        .singup-online{
+            font-size: 20px;
+            display: inline-block;
+        margin: 10px;
+        }
+        
+    }
+    .singup-online:hover{
+        color: $background;
+    }
+    .singUp-fixed:hover{
+        background-color: #5e0a0d;
+    }
+}
+// style scrollbar
+::-webkit-scrollbar
+{
+    width: 12px;
+    margin-right: 20px;
+}
+::-webkit-scrollbar-thumb
+{
+	background: linear-gradient(transparent,$color-yellowD)
+}
+::-webkit-scrollbar-thumb:hover
+{
+	background: linear-gradient(transparent,#fecc53)
+}
+//-------------------------------------------------
+
+

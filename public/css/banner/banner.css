@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+#full-banner {
+  margin-top: 58px;
+  width: 100%;
+  height: auto; }
+  #full-banner #banner {
+    width: 100%;
+    height: auto; }
+
+/*# sourceMappingURL=banner.css.map */
