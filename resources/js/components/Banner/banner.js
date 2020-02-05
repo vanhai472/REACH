@@ -6,7 +6,7 @@ class Banner extends React.Component {
         return (
             <div>
                 <div id="full-banner">
-                <img id="banner" src={require("../../../../public/images/image-main/jobBanner.jpg")} />
+                <img id="banner" src={require("../../../../public/images/image-bannner/jobBanner.gif")} />
                 </div>
             </div>
         )

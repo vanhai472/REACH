@@ -50,7 +50,7 @@ class NavHeader extends React.Component {
             </NavLink>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-              <span class="navbar-toggler-icon"></span>
+              <span class="fa fa-pencil-square-o"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
@@ -100,19 +100,8 @@ class NavHeader extends React.Component {
                           </div>
                         </li>
                         {/* hidden ul item Media */}
-                        <li className="li-list-item li-hover-show-ul-hidden">
-                          <a className="text-hover-show-ul-hidden" href="#">Media</a>
-                          <span className="fa fa-caret-right caret-right"></span>
-                          <div className="hidden-hover-duble media">
-                            <ul className="ul-hover-duble">
-                              <li className="li-hover-duble"><a href="#" className="a-hover-duble">Video</a></li>
-                              <li className="li-hover-duble"><a href="#" className="a-hover-duble">Tài liệu REACH</a></li>
-                              <li className="li-hover-duble"><a href="#" className="a-hover-duble">Bài phát biểu</a></li>
-                              <li className="li-hover-duble"><a href="#" className="a-hover-duble">Phản hồi của học viên</a></li>
-                            </ul>
-                          </div>
-                        </li>
-                        <li className="li-list-item"><a href="#" className="a-li-list-item">Chia sẻ kiến thức</a></li>
+                        
+                        
                       </ul>
                     </div>
                   </NavLink >
@@ -123,22 +112,9 @@ class NavHeader extends React.Component {
                     <div className="hidden">
                       <ul className="ul-item-list">
                         <li className="li-list-item"><a href="#" className="a-li-list-item">Mô hình</a></li>
-                        <li className="li-list-item"><a href="#" className="a-li-list-item">Chiến lược của REACH</a></li>
-                        <li className="li-list-item"><a href="#" className="a-li-list-item">Thành tựu</a></li>
                         <li className="li-list-item"><a href="#" className="a-li-list-item">Chương trình đào tạo</a></li>
                         {/* hidden ul item học viên REACH*/}
-                        <li className="li-list-item li-hover-show-ul-hidden">
-                          <a className="text-hover-show-ul-hidden" href="#">Học viên REACH</a>
-                          <span className="fa fa-caret-right caret-right"></span>
-                          <div className="hidden-hover-duble student">
-                            <ul className="ul-hover-duble">
-                              <li className="li-hover-duble"><a href="#" className="a-hover-duble">Đối tượng học viên</a></li>
-                              <li className="li-hover-duble"><a href="#" className="a-hover-duble">Câu chuyện học viên</a></li>
-                              <li className="li-hover-duble"><a href="#" className="a-hover-duble">Câu hỏi thường gặp</a></li>
-                              <li className="li-hover-duble"><a href="#" className="a-hover-duble">Phản hồi của học viên</a></li>
-                            </ul>
-                          </div>
-                        </li>
+                        
                       </ul>
                     </div>
                   </NavLink>
@@ -153,7 +129,6 @@ class NavHeader extends React.Component {
                         <li className="li-list-item"><a href="#" className="a-li-list-item">Ngoại khóa</a></li>
                         <li className="li-list-item"><a href="#" className="a-li-list-item">CLB Võ thuật</a></li>
                         <li className="li-list-item"><a href="#" className="a-li-list-item">CLB Cựu học viên</a></li>
-                        <li className="li-list-item"><a href="#" className="a-li-list-item">CLB Phị đội gà bay</a></li>
                       </ul>
                     </div>
                   </NavLink >
@@ -161,12 +136,12 @@ class NavHeader extends React.Component {
                 <li class="nav-item menu-item">
                   <NavLink className="NavLink" to="/cung-tham-gia" activeStyle={{ background: "#e69032", color: "#fffbf2", borderRadius: "5px" }}
                     className="nav-link navlinka" activeClassName="active">
-                    cùng tham gia <span className="fa fa-caret-down caret-down"></span>
-                    <div className="hidden ">
+                    Đăng Ký HỌC 
+                  {/* <div className="hidden ">
                       <ul className="ul-item-list">
                         <li className="li-list-item"><a href="#" className="a-li-list-item">Hỗ trợ REACH bằng cách nào</a></li>
                         <li className="li-list-item"><a href="#" className="a-li-list-item">Các nhà tài trợ</a></li>
-                        {/* hidden ul item tình nguyện viện tại REACH*/}
+                       
                         <li className="li-list-item li-hover-show-ul-hidden">
                           <a className="text-hover-show-ul-hidden" href="#">Tình nguyên viên tại REACH</a>
                           <span className="fa fa-caret-right caret-right"></span>
@@ -182,7 +157,7 @@ class NavHeader extends React.Component {
                         <li className="li-list-item"><a href="#" className="a-li-list-item">Bản tin 365 REACH</a></li>
                         <li className="li-list-item"><a href="#" className="a-li-list-item">Cơ hội việc làm</a></li>
                       </ul>
-                    </div>
+                    </div>  */}
                   </NavLink >
                 </li>
               </ul>

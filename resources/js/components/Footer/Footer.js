@@ -20,11 +20,11 @@ const Footer = () => {
                         </div>
                         <div className="col-md-3 nav-menu-main">
                             <ul className="nav-menu-1">
-                                <li><a href="#" className="nav-item1"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#" className="nav-item1"><i class="fa fa-google"></i></a></li>
-                                <li><a href="#" className="nav-item1"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#" className="nav-item1"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#" className="nav-item1"><i class="fa fa-pinterest"></i></a></li>
+                                <li><a href="https://www.facebook.com/lhh.12.10.00" className="nav-item1"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://mail.google.com/mail/u/0/#inbox" className="nav-item1"><i class="fa fa-google"></i></a></li>
+                                <li><a href="https://twitter.com/lehuyho51780841" className="nav-item1"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.instagram.com/hoangg703/?hl=vi" className="nav-item1"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.pinterest.com/hoangglehuy/" className="nav-item1"><i class="fa fa-pinterest"></i></a></li>
                             </ul>
                         </div>
                     </div>

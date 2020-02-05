@@ -20,7 +20,7 @@ const Main = () => (
     <Switch>
         {/*User might LogIn*/}
         <Route exact path="/" component={Home} />
-        <Route exact path="/tuyen-sinh" component={SignUp} />
+        <Route exact path="/DangKy" component={SignUp} />
         {/*User will LogIn*/}
         <Route path="/login" component={Login} />
         <Route path="/register" component={Register} />
