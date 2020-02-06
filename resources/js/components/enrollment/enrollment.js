@@ -7,13 +7,14 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import { } from '../../../../public/css/enrollment/enrollment.css';
+import { NavLink } from "react-router-dom";
 // import React from 'react';
 const options = {
-    item: 3,
+    item: 9,
     nav: false,
     autoplay: true,
-    loop: false,
-    autoplayTimeout: 4000,
+    loop: true,
+    autoplay: true,
     responsive: {
         1000: {
             items: 3,
@@ -32,75 +33,75 @@ const events = {
 class Enrollment extends React.Component {
     render() {
         return (
-            <div>
+            <div className="mr-enrollment">
                 <div className="container">
                     <h2 className="title-tuyen-sinh"><span className="sta">✦</span>Ngành Học</h2>
 
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
                     <div className="slider-enrollment">
 
-                        <OwlCarousel id="temo" ref="iphone" options={options} events={events}>
+                        <OwlCarousel id="temo" ref="iphone" options={options} events={events} className="owl-theme"loop autoplay autoplayTimeout={2000} autoplaySpeed={1000} >
                             <div id="0" className="item-img">
-                                <img src={require("../../../../public/images/image-entrollment/code.jpg")} alt="" />
+                                <img className="image-enroll" src={require("../../../../public/images/image-entrollment/code.jpg")} alt="" />
                                 <p className="title-class">lớp lập trình web</p>
                                 <div className="button-enrollment">
-                                    <a className="Text-Button-enroller" href="#">Đăng Kí Học</a>
+                                <NavLink to="/DangKy" className="Text-Button-enroller">Đăng Kí Học </NavLink>
                                 </div>
                             </div>
                             <div id="1" className="item-img">
-                                <img src={require("../../../../public/images/image-entrollment/3D.jpg")} alt="" />
+                                <img className="image-enroll" src={require("../../../../public/images/image-entrollment/3D.jpg")} alt="" />
                                 <p className="title-class">thiết kế đồ họa 3D</p>
                                 <div className="button-enrollment">
-                                    <a className="Text-Button-enroller" href="#">Đăng Kí Học</a>
+                                <NavLink to="/DangKy" className="Text-Button-enroller">Đăng Kí Học </NavLink>
                                 </div>
                             </div>
                             <div id="2" className="item-img">
-                                <img src={require("../../../../public/images/image-entrollment/2D.jpg")} alt="" />
+                                <img className="image-enroll" src={require("../../../../public/images/image-entrollment/2D.jpg")} alt="" />
                                 <p className="title-class">thiết kế đồ họa 2D</p>
                                 <div className="button-enrollment">
-                                    <a className="Text-Button-enroller" href="#">Đăng Kí Học</a>
+                                <NavLink to="/DangKy" className="Text-Button-enroller">Đăng Kí Học </NavLink>
                                 </div>
                             </div>
                             <div id="3" className="item-img">
-                                <img src={require("../../../../public/images/image-entrollment/bartender.jpg")} alt="" />
+                                <img className="image-enroll" src={require("../../../../public/images/image-entrollment/bartender.jpg")} alt="" />
                                 <p className="title-class">nghiệp vụ nhà hàng pha chế</p>
                                 <div className="button-enrollment">
-                                    <a className="Text-Button-enroller" href="#">Đăng Kí Học</a>
+                                <NavLink to="/DangKy" className="Text-Button-enroller">Đăng Kí Học </NavLink>
                                 </div>
                             </div>
                             <div id="4" className="item-img">
-                                <img src={require("../../../../public/images/image-entrollment/cook.jpg")} alt="" />
+                                <img className="image-enroll" src={require("../../../../public/images/image-entrollment/cook.jpg")} alt="" />
                                 <p className="title-class">chế biến món ăn</p>
                                 <div className="button-enrollment">
-                                    <a className="Text-Button-enroller" href="#">Đăng Kí Học</a>
+                                <NavLink to="/DangKy" className="Text-Button-enroller">Đăng Kí Học </NavLink>
                                 </div>
                             </div>
                             <div id="5" className="item-img">
-                                <img src={require("../../../../public/images/image-entrollment/marketing.jpg")} alt="" />
+                                <img className="image-enroll" src={require("../../../../public/images/image-entrollment/marketing.jpg")} alt="" />
                                 <p className="title-class">bán hàng và marketing</p>
                                 <div className="button-enrollment">
-                                    <a className="Text-Button-enroller" href="#">Đăng Kí Học</a>
+                                <NavLink to="/DangKy" className="Text-Button-enroller">Đăng Kí Học </NavLink>
                                 </div>
                             </div>
                             <div id="6" className="item-img">
-                                <img src={require("../../../../public/images/image-entrollment/toc.jpg")} alt="" />
+                                <img className="image-enroll" src={require("../../../../public/images/image-entrollment/toc.jpg")} alt="" />
                                 <p className="title-class">làm tóc vẽ móng</p>
                                 <div className="button-enrollment">
-                                    <a className="Text-Button-enroller" href="#">Đăng Kí Học</a>
+                                <NavLink to="/DangKy" className="Text-Button-enroller">Đăng Kí Học </NavLink>
                                 </div>
                             </div>
                             <div id="7" className="item-img">
-                                <img src={require("../../../../public/images/image-entrollment/YCI.jpg")} alt="" />
+                                <img className="image-enroll" src={require("../../../../public/images/image-entrollment/YCI.jpg")} alt="" />
                                 <p className="title-class">nghiệp vụ khách sạn 5 sao</p>
                                 <div className="button-enrollment">
-                                    <a className="Text-Button-enroller" href="#">Đăng Kí Học</a>
+                                <NavLink to="/DangKy" className="Text-Button-enroller">Đăng Kí Học </NavLink>
                                 </div>
                             </div>
                             <div id="8" className="item-img">
-                                <img src={require("../../../../public/images/image-entrollment/video.jpg")} alt="" />
+                                <img className="image-enroll" src={require("../../../../public/images/image-entrollment/video.jpg")} alt="" />
                                 <p className="title-class">chỉnh sữa video</p>
                                 <div className="button-enrollment">
-                                    <a className="Text-Button-enroller" href="#">Đăng Kí Học</a>
+                                <NavLink to="/DangKy" className="Text-Button-enroller">Đăng Kí Học </NavLink>
                                 </div>
                             </div>
 

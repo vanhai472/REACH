@@ -1,0 +1,117 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Avenir Next",arial,serif;
+
+}
+// Đây là phần bao ngoài của phần slide
+.slidebar-Paradigm{
+    // Đây là phần 1
+        .button-slidebar-Paradigm-1{
+            padding:10px 164px 0 25px;
+            background: #eb991b;
+            margin-bottom: 5px;
+            text-decoration: none;
+        }
+    //Đây là hover của phần 1
+        .button-slidebar-Paradigm-1:hover{
+            background: #c98218;
+        }
+    //Đây là phần 2
+        .button-slidebar-Paradigm-2{
+            padding:10px 59px 0 27px;
+            background: #b60505;
+            margin-bottom: 5px;
+            text-decoration: none;
+        }
+    //Đây là hover phần 2
+        .button-slidebar-Paradigm-2:hover{
+            background:  #eb991b;
+        } 
+         .text-button-slidebar-Paradigm{
+            text-transform: none;
+            font-size: 18px;
+            font-weight: 500;
+            color:#fff;
+        }
+    }
+    .advertisement-slidebar-Paradigm-main-1{
+        background: #fd7522;
+        position: relative;
+        color:#fff;
+        padding:30px 19px;
+        margin-top:15px;
+        font-family: "Avenir Next",arial,serif;
+        .h3-advertisement-slidebar-Paradigm-1{
+            font-size:24px;
+            font-weight: 100;
+            
+        }
+        .a-advertisement-slidebar-Paradigm-1{
+            font-weight: 700;
+            text-transform: uppercase;
+            color:#fff;
+            text-decoration: none;
+        }
+    
+    }
+    .advertisement-slidebar-Paradigm-main-2{
+        background: #1683d4;
+        position: relative;
+        color: #fff;
+        padding:30px 25px;
+        margin-top:10px;
+        .a-advertisement-slidebar-Paradigm-2{
+            font-weight: 700;
+            text-transform: uppercase;
+            color:#fff;
+            text-decoration: none;
+        }
+    }
+//Đây là phần box-text-Paradigm
+.box-text-Paradigm{
+    background: #fff;
+    border: 1px solid rgba(173, 173, 173, 0.322);
+    .title-Paradigm{
+        padding-top:30px;
+        padding-left:30px;
+        padding-bottom: 50px;
+        font-family: "Avenir Next",arial,serif;
+        .h1-title-Paradigm-1{
+            font-weight: 700;
+            color:rgba(120, 120, 120, 0.767)
+        }
+        .span-title-Paradigm{
+            color:#eb991b;
+        }
+    }
+    .text-title-Paradigm-1{
+        margin-left:80px;
+        font-family: "Avenir Next",arial,serif;
+    }
+//Đây là phần icon-Paradigm
+    .icon-Paradigm{
+        padding-top:50px;
+        padding-left:30px;
+    }
+    .li-text-Paradigm-main{
+        background: #ddd   ;
+        .link-text-Paradigm-main{
+            color:rgb(112, 112, 112);
+        }
+//Đây là phần link được hover
+    .link-text-Paradigm-main:hover{
+        color:#c98218;
+    }
+    }
+    .li-text-main-Paradigm-1{
+        background: #b21116;
+        .link-text-main-Paradigm-1{
+            color:white;
+        }
+    }
+}
+   

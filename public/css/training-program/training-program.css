@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Avenir Next",arial,serif; }
+
+.slidebar-Training-program .button-slidebar-Training-program-1 {
+  padding: 10px 164px 0 25px;
+  background: #b60505;
+  margin-bottom: 5px;
+  text-decoration: none; }
+.slidebar-Training-program .button-slidebar-Training-program-1:hover {
+  background: #eb991b; }
+.slidebar-Training-program .button-slidebar-Training-program-2 {
+  padding: 10px 59px 0 27px;
+  background: #eb991b;
+  margin-bottom: 5px;
+  text-decoration: none; }
+.slidebar-Training-program .button-slidebar-Training-program-2:hover {
+  background: #c98218; }
+.slidebar-Training-program .text-button-slidebar-Training-program {
+  text-transform: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff; }
+
+.advertisement-slidebar-Training-program-main-1 {
+  background: #fd7522;
+  position: relative;
+  color: #fff;
+  padding: 30px 19px;
+  margin-top: 15px;
+  font-family: "Avenir Next",arial,serif; }
+  .advertisement-slidebar-Training-program-main-1 .h3-advertisement-slidebar-Training-program-1 {
+    font-size: 24px;
+    font-weight: 100; }
+  .advertisement-slidebar-Training-program-main-1 .a-advertisement-slidebar-Training-program-1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none; }
+
+.advertisement-slidebar-Training-program-main-2 {
+  background: #1683d4;
+  position: relative;
+  color: #fff;
+  padding: 30px 25px;
+  margin-top: 10px; }
+  .advertisement-slidebar-Training-program-main-2 .a-advertisement-slidebar-Training-program-2 {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none; }
+
+.box-text-Training-program {
+  background: #fff;
+  border: 1px solid rgba(173, 173, 173, 0.322); }
+  .box-text-Training-program .h1-title-Training-program-1 {
+    font-family: "Avenir Next",arial,serif;
+    font-weight: 700;
+    color: rgba(120, 120, 120, 0.767); }
+    .box-text-Training-program .h1-title-Training-program-1 .span-title-Training-program {
+      color: #fd7522; }
+  .box-text-Training-program .text-Training-program-1 {
+    margin-left: 40px;
+    font-family: "Avenir Next",arial,serif; }
+  .box-text-Training-program .text-Training-program-2 {
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Avenir Next",arial,serif; }
+    .box-text-Training-program .text-Training-program-2 .sup-text-Training-program-1 {
+      font-size: 15px;
+      color: #eb991b; }
+  .box-text-Training-program .text-title-Training-program-1 {
+    margin-left: 70px;
+    font-weight: 600;
+    font-size: 17;
+    font-family: "Avenir Next",arial,serif; }
+  .box-text-Training-program .text-sm-Training-program-1 {
+    font-family: "Avenir Next",arial,serif;
+    margin-left: 70px; }
+  .box-text-Training-program .icon-Training-program {
+    padding-top: 50px;
+    padding-left: 30px; }
+  .box-text-Training-program .li-text-Training-program-main {
+    background: #ddd; }
+    .box-text-Training-program .li-text-Training-program-main .link-text-Training-program-main {
+      color: #707070; }
+    .box-text-Training-program .li-text-Training-program-main .link-text-Training-program-main:hover {
+      color: #c98218; }
+  .box-text-Training-program .li-text-main-Training-program-1 {
+    background: #b21116; }
+    .box-text-Training-program .li-text-main-Training-program-1 .link-text-main-Training-program-1 {
+      color: white; }
+
+/*# sourceMappingURL=training-program.css.map */

@@ -1,67 +1,33 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; 
-    
-  }
-  body{
-    font-family: 'Roboto' !important;
-    background-color: #fffbf2;
-  }
- .main{
-      padding-bottom:100px ;
-      height: 510px;
-  }
-  .arrow{
-    margin-bottom: 0 !important;
-    padding: 0px !important;
-  }
-  .mar{
-      margin-right: 13px;
-  }
-.picture{
-    height: 210px;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; }
 
-}
-  .image-item-2-4 {
-    width: 220px;
-    height: 210px;
-    margin-top: 15px;
-    box-shadow: 5px 10px 8px #8a776a;
-    border-radius: 200px;
-    margin-bottom:15px;
-    text-decoration: none;
-    margin-left:100px;
-  }
-  .title-2-4{
-    font-weight: 700;
-    font-size: 22px;
-    padding-top:10px;
-    margin-top: 15px;
-    color:#000;
-    margin-left:100px;
-    text-align: center;
-} 
-  .sumary-2-4{
-    text-decoration: none;
-}  
+.mr-main {
+  margin: 50px 0px;
+  text-transform: uppercase; }
 
-.text-1-1{
-      height: 254px;
-      margin: 0 auto;
- }
-.text-1-2{
-    padding-top:45px;
-    height: 254px;
-    margin-left: -5px;
-}
- .next{
-      text-decoration: none;
-      color:rgb(248, 58, 0);
-      margin-left: 148px;
-  }
-  .next:hover{
-      color:#eb991b;
-  } 
+.why-Reach {
+  color: #810c10;
+  font-size: 30px; }
+
+.title-main {
+  color: #e69032;
+  font-size: 30px;
+  text-align: center;
+  word-spacing: 5px;
+  line-height: 30px; }
+
+.wraper-image-main {
+  width: 240px; }
+  .wraper-image-main .image-main {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%; }
+  .wraper-image-main .title-image {
+    color: #fecc53;
+    font-size: 14px;
+    line-height: 1.42857143;
+    text-align: center; }
 
 /*# sourceMappingURL=Main.css.map */

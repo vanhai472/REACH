@@ -6,6 +6,11 @@ import Banner from '../Banner/Banner';
 import Main from '../Main/Main';
 import Enrollment from '../Enrollment/Enrollment';
 import Tintuc from '../tintuc/tintuc';
+import Paradigm from '../paradigm/Paradigm';
+import Training from '../training-program/training-program';
+import Create from '../all-form/formCreate/create';
+
+
 
 
 
@@ -31,9 +36,13 @@ render() {
       <div>
         <NavHeader />
         <Banner />
+        <Create />
         <Main />
         <Tintuc />
       <Enrollment />
+      <Paradigm />
+      <Training />
+
         <Footer/>
       </div>
       )

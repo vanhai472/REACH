@@ -8070,7 +8070,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box; \r\n    \r\n  }\r\n  body{\r\n    font-family: 'Roboto' !important;\r\n    background-color: #fffbf2;\r\n  }\r\n .main{\r\n      padding-bottom:100px ;\r\n      height: 510px;\r\n  }\r\n  .arrow{\r\n    margin-bottom: 0 !important;\r\n    padding: 0px !important;\r\n  }\r\n  .mar{\r\n      margin-right: 13px;\r\n  }\r\n.picture{\r\n    height: 210px;\r\n\r\n}\r\n  .image-item-2-4 {\r\n    width: 220px;\r\n    height: 210px;\r\n    margin-top: 15px;\r\n    box-shadow: 5px 10px 8px #8a776a;\r\n    border-radius: 200px;\r\n    margin-bottom:15px;\r\n    text-decoration: none;\r\n    margin-left:100px;\r\n  }\r\n  .title-2-4{\r\n    font-weight: 700;\r\n    font-size: 22px;\r\n    padding-top:10px;\r\n    margin-top: 15px;\r\n    color:#000;\r\n    margin-left:100px;\r\n    text-align: center;\r\n} \r\n  .sumary-2-4{\r\n    text-decoration: none;\r\n}  \r\n\r\n.text-1-1{\r\n      height: 254px;\r\n      margin: 0 auto;\r\n }\r\n.text-1-2{\r\n    padding-top:45px;\r\n    height: 254px;\r\n    margin-left: -5px;\r\n}\r\n .next{\r\n      text-decoration: none;\r\n      color:rgb(248, 58, 0);\r\n      margin-left: 148px;\r\n  }\r\n  .next:hover{\r\n      color:#eb991b;\r\n  }\r\n", ""]);
+exports.push([module.i, "* {\r\n  padding: 0px;\r\n  margin: 0px;\r\n  box-sizing: border-box; }\r\n\r\n.mr-main {\r\n  margin: 50px 0px;\r\n  text-transform: uppercase; }\r\n\r\n.why-Reach {\r\n  color: #810c10;\r\n  font-size: 30px; }\r\n\r\n.title-main {\r\n  color: #e69032;\r\n  font-size: 30px;\r\n  text-align: center;\r\n  word-spacing: 5px;\r\n  line-height: 30px; }\r\n\r\n.wraper-image-main {\r\n  width: 240px; }\r\n  .wraper-image-main .image-main {\r\n    width: 170px;\r\n    height: 170px;\r\n    border-radius: 50%; }\r\n  .wraper-image-main .title-image {\r\n    color: #fecc53;\r\n    font-size: 14px;\r\n    line-height: 1.42857143;\r\n    text-align: center; }\r\n", ""]);
 
 // exports
 
@@ -8165,7 +8165,45 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "/*start slider*/\r\n.container{\r\n    width: 1140px;\r\n    margin: 0 auto;\r\n  }\r\n  \r\n  .title-tuyen-sinh{\r\n    font-size: 32px;\r\n    font-weight: 700;\r\n    color: #8a776a;\r\n    margin-bottom: 30px !important;\r\n  }\r\n  .slider-enrollment {\r\n      z-index: 0;\r\n      width: 1140px;\r\n      height: 400px;\r\n      position: relative; \r\n      background-color: #fffbf2;\r\n      margin-bottom: 30px;\r\n    }\r\n      #temo .item-img{\r\n          margin: 0 10px;\r\n          /* width: 270px; */\r\n          height: 430px;\r\n          position: relative;\r\n      }\r\n      #temo .item-img:hover .button-enrollment{\r\n        opacity: 1;\r\n        visibility: visible;\r\n        overflow: visible;\r\n      }\r\n.button-enrollment{\r\n  position: absolute;\r\n  z-index: 999;\r\n    top: 50%;\r\n    left: 50%;\r\n    -webkit-transform: translate(-50%, -50%);\r\n            transform: translate(-50%, -50%);\r\n} \r\n/* style button*/  \r\n.button-enrollment{\r\n  opacity: 0;\r\n  visibility: hidden;\r\n  overflow: hidden;\r\n}\r\n\r\n.Text-Button-enroller{\r\n  color:#fff;\r\n  background: #f36f2b;\r\n  padding:7px 10px;\r\n  border-radius: 20px;\r\n  text-transform: uppercase;\r\n  font-weight: 700;\r\n  text-decoration: none;\r\n  -webkit-transition: all .3s ease 0s;\r\n  transition: all .3s ease 0s;\r\n}\r\n.Text-Button-enroller:hover{\r\n  color:#f36f2b;\r\n  background: #fff;\r\n  border: 1px solid #f36f2b;\r\n  text-decoration: none;\r\n}\r\n    #temo div img {\r\n      width: 100%;\r\n      height: 380px;\r\n      position: relative;\r\n      text-align: center;\r\n  }\r\n  .title-class{\r\n    /* color: #8a776a; */\r\n    color: #fffbf2;\r\n    font-size: 20px;\r\n    line-height: 50px;\r\n    background-color: #810c10;\r\n    text-align: center;\r\n  }\r\n  /*   \r\n    #temo div img ~ p {\r\n      position: absolute;\r\n      top: 40px;\r\n      left: 1000px; }\r\n    \r\n    #temo div img ~ p img {\r\n      width: 60px;\r\n      height: auto; }\r\n    \r\n    #prev, #next {\r\n      position: absolute;\r\n      top: 50%;\r\n      transform: translateY(-50%);\r\n      z-index: 100;\r\n      cursor: pointer;\r\n      border-radius: 50%; }\r\n    \r\n    #prev {\r\n      left: 10px; }\r\n    \r\n    #next {\r\n      right: 10px; }\r\n    \r\n    #prev i, #next i {\r\n      font-size: 30px;\r\n      border-radius: 50%; }\r\n    \r\n    #prev:hover i, #next:hover i {\r\n      background: lightblue;\r\n      color: white; }\r\n    \r\n    #all_pagination {\r\n      position: relative;\r\n      top: -20px; }\r\n    \r\n    #all_pagination span {\r\n      text-align: center;\r\n      border-radius: 50%;\r\n      cursor: pointer;\r\n      z-index: 100;\r\n      margin: 0 3px; }\r\n    \r\n    #all_pagination span:hover i {\r\n      color: white;\r\n      background: black; } */\r\n  \r\n    \r\n      ", ""]);
+exports.push([module.i, "/*start slider*/\r\n.container{\r\n    width: 1140px;\r\n    margin: 0 auto;\r\n  }\r\n  .mr-enrollment{\r\n    margin: 100px  0px;\r\n  }\r\n  .title-tuyen-sinh{\r\n    font-size: 32px;\r\n    font-weight: 700;\r\n    color: #8a776a;\r\n    margin-bottom: 30px !important;\r\n  }\r\n  .slider-enrollment {\r\n      z-index: 0;\r\n      width: 1140px;\r\n      height: 400px;\r\n      position: relative; \r\n      background-color: #fffbf2;\r\n      margin-bottom: 30px;\r\n    }\r\n      #temo .item-img{\r\n          margin: 0 15px;\r\n          /* width: 270px; */\r\n          height: 430px;\r\n          position: relative;\r\n          border: 1px solid #fffbf2;\r\n          box-shadow: 3px 7px 5px #edf7f5;\r\n          background-color: white;\r\n          border-radius: 5px;\r\n      }\r\n      .image-enroll{\r\n        height: 430;\r\n        position: relative;\r\n          top: 50%;\r\n          left: 50%;\r\n          -webkit-transform: translate(-50%, -50%);\r\n                  transform: translate(-50%, -50%);\r\n         \r\n      }\r\n      #temo .item-img:hover .button-enrollment{\r\n        opacity: 1;\r\n        visibility: visible;\r\n        overflow: visible;\r\n      }\r\n.button-enrollment{\r\n  position: absolute;\r\n  z-index: 999;\r\n    top: 46%;\r\n    left: 50%;\r\n    -webkit-transform: translate(-50%, -50%);\r\n            transform: translate(-50%, -50%);\r\n} \r\n/* style button*/  \r\n.button-enrollment{\r\n  opacity: 0;\r\n  visibility: hidden;\r\n  overflow: hidden;\r\n}\r\n\r\n.Text-Button-enroller{\r\n  color:#fff;\r\n  background: #f36f2b;\r\n  padding:7px 10px;\r\n  border-radius: 20px;\r\n  text-transform: uppercase;\r\n  font-weight: 700;\r\n  text-decoration: none;\r\n  -webkit-transition: all .3s ease 0s;\r\n  transition: all .3s ease 0s;\r\n}\r\n.Text-Button-enroller:hover{\r\n  color:#f36f2b;\r\n  background: #fff;\r\n  border: 1px solid #f36f2b;\r\n  text-decoration: none;\r\n}\r\n    #temo div img {\r\n      width: 90%;\r\n      height: 380px;\r\n      position: relative;\r\n      text-align: center;\r\n  }\r\n  .title-class{\r\n    /* color: #8a776a; */\r\n    color: #fffbf2;\r\n    font-size: 20px;\r\n    line-height: 50px;\r\n    background-color: #810c10;\r\n    text-align: center;\r\n    position: relative;\r\n    top: 7px;\r\n  }\r\n  /*   \r\n    #temo div img ~ p {\r\n      position: absolute;\r\n      top: 40px;\r\n      left: 1000px; }\r\n    \r\n    #temo div img ~ p img {\r\n      width: 60px;\r\n      height: auto; }\r\n    \r\n    #prev, #next {\r\n      position: absolute;\r\n      top: 50%;\r\n      transform: translateY(-50%);\r\n      z-index: 100;\r\n      cursor: pointer;\r\n      border-radius: 50%; }\r\n    \r\n    #prev {\r\n      left: 10px; }\r\n    \r\n    #next {\r\n      right: 10px; }\r\n    \r\n    #prev i, #next i {\r\n      font-size: 30px;\r\n      border-radius: 50%; }\r\n    \r\n    #prev:hover i, #next:hover i {\r\n      background: lightblue;\r\n      color: white; }\r\n    \r\n    #all_pagination {\r\n      position: relative;\r\n      top: -20px; }\r\n    \r\n    #all_pagination span {\r\n      text-align: center;\r\n      border-radius: 50%;\r\n      cursor: pointer;\r\n      z-index: 100;\r\n      margin: 0 3px; }\r\n    \r\n    #all_pagination span:hover i {\r\n      color: white;\r\n      background: black; } */\r\n  \r\n    \r\n      ", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./public/css/formCreate/create.css":
+/*!**************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./public/css/formCreate/create.css ***!
+  \**************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "* {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box; }\r\n  \r\n  body {\r\n    font-family: 'Numans', sans-serif;\r\n    color: white; }\r\n  \r\n  .container {\r\n    width: 1140px;\r\n    margin: 0 auto; }\r\n  \r\n  .wrapper-form-update {\r\n    height: 450px;\r\n    width: 700px;\r\n    background-color: rgba(0, 0, 0, 0.5); }\r\n  \r\n  h3 {\r\n    margin-top: 20px;\r\n    border-bottom: 1px solid;\r\n    padding-bottom: 15px;\r\n    color: #e69032; }\r\n  \r\n  #Title {\r\n    margin: 0px auto;\r\n    width: 85%; }\r\n  \r\n  label {\r\n    margin: 0px 55px;\r\n    color: #e69032;\r\n   }\r\n  \r\n  #Content {\r\n    margin: 0px auto;\r\n    width: 85%; }\r\n  \r\n  button {\r\n    margin-bottom: 20px; }\r\n  .Create{\r\n    color: black;\r\n  background-color: #FFC312;\r\n  position: relative;\r\n  left: 50%;\r\n  -webkit-transform: translate(-50%);\r\n          transform: translate(-50%);\r\n  padding: 7px 20px; }\r\n  .Create:hover {\r\n    color: #FFC312;\r\n    background-color: white; }\r\n  .Update {\r\n    color: black;\r\n    background-color: #FFC312;\r\n    padding: 7px 20px;\r\n  position: relative;\r\n  left: 50%;\r\n  -webkit-transform: translate(-50%);\r\n          transform: translate(-50%); }\r\n  \r\n  .Update:hover {\r\n    color: #FFC312;\r\n    background-color: white; }\r\n  ", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./public/css/paradigm/Paradigm.css":
+/*!**************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./public/css/paradigm/Paradigm.css ***!
+  \**************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "* {\r\n  padding: 0;\r\n  margin: 0;\r\n  box-sizing: border-box; }\r\n\r\nbody {\r\n  font-family: \"Avenir Next\",arial,serif; }\r\n\r\n.slidebar-Paradigm .button-slidebar-Paradigm-1 {\r\n  padding: 10px 164px 0 25px;\r\n  background: #eb991b;\r\n  margin-bottom: 5px;\r\n  text-decoration: none; }\r\n.slidebar-Paradigm .button-slidebar-Paradigm-1:hover {\r\n  background: #c98218; }\r\n.slidebar-Paradigm .button-slidebar-Paradigm-2 {\r\n  padding: 10px 59px 0 27px;\r\n  background: #b60505;\r\n  margin-bottom: 5px;\r\n  text-decoration: none; }\r\n.slidebar-Paradigm .button-slidebar-Paradigm-2:hover {\r\n  background: #eb991b; }\r\n.slidebar-Paradigm .text-button-slidebar-Paradigm {\r\n  text-transform: none;\r\n  font-size: 18px;\r\n  font-weight: 500;\r\n  color: #fff; }\r\n\r\n.advertisement-slidebar-Paradigm-main-1 {\r\n  background: #fd7522;\r\n  position: relative;\r\n  color: #fff;\r\n  padding: 30px 19px;\r\n  margin-top: 15px;\r\n  font-family: \"Avenir Next\",arial,serif; }\r\n  .advertisement-slidebar-Paradigm-main-1 .h3-advertisement-slidebar-Paradigm-1 {\r\n    font-size: 24px;\r\n    font-weight: 100; }\r\n  .advertisement-slidebar-Paradigm-main-1 .a-advertisement-slidebar-Paradigm-1 {\r\n    font-weight: 700;\r\n    text-transform: uppercase;\r\n    color: #fff;\r\n    text-decoration: none; }\r\n\r\n.advertisement-slidebar-Paradigm-main-2 {\r\n  background: #1683d4;\r\n  position: relative;\r\n  color: #fff;\r\n  padding: 30px 25px;\r\n  margin-top: 10px; }\r\n  .advertisement-slidebar-Paradigm-main-2 .a-advertisement-slidebar-Paradigm-2 {\r\n    font-weight: 700;\r\n    text-transform: uppercase;\r\n    color: #fff;\r\n    text-decoration: none; }\r\n\r\n.box-text-Paradigm {\r\n  background: #fff;\r\n  border: 1px solid rgba(173, 173, 173, 0.322); }\r\n  .box-text-Paradigm .title-Paradigm {\r\n    padding-top: 30px;\r\n    padding-left: 30px;\r\n    padding-bottom: 50px;\r\n    font-family: \"Avenir Next\",arial,serif; }\r\n    .box-text-Paradigm .title-Paradigm .h1-title-Paradigm-1 {\r\n      font-weight: 700;\r\n      color: rgba(120, 120, 120, 0.767); }\r\n    .box-text-Paradigm .title-Paradigm .span-title-Paradigm {\r\n      color: #eb991b; }\r\n  .box-text-Paradigm .text-title-Paradigm-1 {\r\n    margin-left: 80px;\r\n    font-family: \"Avenir Next\",arial,serif; }\r\n  .box-text-Paradigm .icon-Paradigm {\r\n    padding-top: 50px;\r\n    padding-left: 30px; }\r\n  .box-text-Paradigm .li-text-Paradigm-main {\r\n    background: #ddd; }\r\n    .box-text-Paradigm .li-text-Paradigm-main .link-text-Paradigm-main {\r\n      color: #707070; }\r\n    .box-text-Paradigm .li-text-Paradigm-main .link-text-Paradigm-main:hover {\r\n      color: #c98218; }\r\n  .box-text-Paradigm .li-text-main-Paradigm-1 {\r\n    background: #b21116; }\r\n    .box-text-Paradigm .li-text-main-Paradigm-1 .link-text-main-Paradigm-1 {\r\n      color: white; }\r\n", ""]);
 
 // exports
 
@@ -8185,6 +8223,25 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 // module
 exports.push([module.i, "\r\n  /*Đây là tintuc */\r\n  * {\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box; \r\n    \r\n  }\r\n  body{\r\n    font-family: 'Roboto';\r\n  }\r\n  .wrap-tituc{\r\n      margin-bottom: 30px;\r\n  }\r\n  #big-news{\r\n      text-decoration: none;\r\n  }\r\n  .arrow{\r\n     color: rgba(136, 116, 107, 0.8);\r\n     margin-bottom:30px;\r\n  }\r\n  #bigtitle-tintuc{\r\n     font-weight: 700;\r\n     font-size: 32px;\r\n     margin-bottom: 30px;\r\n  }\r\n  .arrow span{\r\n      color: #e96005;\r\n  }\r\n  #bigpic{\r\n      width: 540px;\r\n      height: 360px;\r\n  }\r\n  .contentbig{\r\n      border-top:3px solid #b21116; \r\n      color:#545454;\r\n      margin-bottom:5px;\r\n      font-weight: 700;\r\n      font-size:18px;\r\n      font-family: 'Roboto';\r\n      text-transform: uppercase;\r\n  }\r\n  .contentbig p{\r\n    margin-top: 10px;\r\n}\r\n  .contentbig:hover{\r\n      color:#eb991b;\r\n  }\r\n  .datetime{\r\n      font-size: 13px;\r\n      color:#999;\r\n  }\r\n  \r\n  #sm-link{\r\n      display: -webkit-box;\r\n      display: flex;\r\n      text-decoration: none;\r\n      color:#000;\r\n  }\r\n  .sm-news{\r\n      display: -webkit-box;\r\n      display: flex;\r\n  }\r\n  #smpic{\r\n      width: 150px;\r\n      height: 120px;\r\n      margin:0 15px 15px 15px;\r\n  }\r\n  #textsmpic{\r\n      text-transform: uppercase;\r\n      font-size: 17px;\r\n      font-family: 'Roboto';\r\n      font-weight: 500;\r\n      margin-right:5px ;\r\n  }\r\n  #sm-link:hover{\r\n      color:#eb991b;\r\n  }\r\n  .button-sm{\r\n      padding-left:250px;\r\n  }\r\n  #button-sm{\r\n      border:2px solid #b21116;\r\n      font-weight: 400;\r\n      text-transform: uppercase;\r\n      color:#b21116;\r\n      text-decoration: none;\r\n      padding: 5px 25px;\r\n      border-radius: 20px;\r\n  }\r\n  #button-sm:hover{\r\n      color:#fff;\r\n      background: #eb991b;\r\n  }\r\n  ", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./public/css/training-program/training-program.css":
+/*!******************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./public/css/training-program/training-program.css ***!
+  \******************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "* {\r\n  padding: 0;\r\n  margin: 0;\r\n  box-sizing: border-box; }\r\n\r\nbody {\r\n  font-family: \"Avenir Next\",arial,serif; }\r\n\r\n.slidebar-Training-program .button-slidebar-Training-program-1 {\r\n  padding: 10px 164px 0 25px;\r\n  background: #b60505;\r\n  margin-bottom: 5px;\r\n  text-decoration: none; }\r\n.slidebar-Training-program .button-slidebar-Training-program-1:hover {\r\n  background: #eb991b; }\r\n.slidebar-Training-program .button-slidebar-Training-program-2 {\r\n  padding: 10px 59px 0 27px;\r\n  background: #eb991b;\r\n  margin-bottom: 5px;\r\n  text-decoration: none; }\r\n.slidebar-Training-program .button-slidebar-Training-program-2:hover {\r\n  background: #c98218; }\r\n.slidebar-Training-program .text-button-slidebar-Training-program {\r\n  text-transform: none;\r\n  font-size: 18px;\r\n  font-weight: 500;\r\n  color: #fff; }\r\n\r\n.advertisement-slidebar-Training-program-main-1 {\r\n  background: #fd7522;\r\n  position: relative;\r\n  color: #fff;\r\n  padding: 30px 19px;\r\n  margin-top: 15px;\r\n  font-family: \"Avenir Next\",arial,serif; }\r\n  .advertisement-slidebar-Training-program-main-1 .h3-advertisement-slidebar-Training-program-1 {\r\n    font-size: 24px;\r\n    font-weight: 100; }\r\n  .advertisement-slidebar-Training-program-main-1 .a-advertisement-slidebar-Training-program-1 {\r\n    font-weight: 700;\r\n    text-transform: uppercase;\r\n    color: #fff;\r\n    text-decoration: none; }\r\n\r\n.advertisement-slidebar-Training-program-main-2 {\r\n  background: #1683d4;\r\n  position: relative;\r\n  color: #fff;\r\n  padding: 30px 25px;\r\n  margin-top: 10px; }\r\n  .advertisement-slidebar-Training-program-main-2 .a-advertisement-slidebar-Training-program-2 {\r\n    font-weight: 700;\r\n    text-transform: uppercase;\r\n    color: #fff;\r\n    text-decoration: none; }\r\n\r\n.box-text-Training-program {\r\n  background: #fff;\r\n  border: 1px solid rgba(173, 173, 173, 0.322); }\r\n  .box-text-Training-program .h1-title-Training-program-1 {\r\n    font-family: \"Avenir Next\",arial,serif;\r\n    font-weight: 700;\r\n    color: rgba(120, 120, 120, 0.767); }\r\n    .box-text-Training-program .h1-title-Training-program-1 .span-title-Training-program {\r\n      color: #fd7522; }\r\n  .box-text-Training-program .text-Training-program-1 {\r\n    margin-left: 40px;\r\n    font-family: \"Avenir Next\",arial,serif; }\r\n  .box-text-Training-program .text-Training-program-2 {\r\n    margin-left: 50px;\r\n    font-size: 25px;\r\n    font-weight: 600;\r\n    font-family: \"Avenir Next\",arial,serif; }\r\n    .box-text-Training-program .text-Training-program-2 .sup-text-Training-program-1 {\r\n      font-size: 15px;\r\n      color: #eb991b; }\r\n  .box-text-Training-program .text-title-Training-program-1 {\r\n    margin-left: 70px;\r\n    font-weight: 600;\r\n    font-size: 17;\r\n    font-family: \"Avenir Next\",arial,serif; }\r\n  .box-text-Training-program .text-sm-Training-program-1 {\r\n    font-family: \"Avenir Next\",arial,serif;\r\n    margin-left: 70px; }\r\n  .box-text-Training-program .icon-Training-program {\r\n    padding-top: 50px;\r\n    padding-left: 30px; }\r\n  .box-text-Training-program .li-text-Training-program-main {\r\n    background: #ddd; }\r\n    .box-text-Training-program .li-text-Training-program-main .link-text-Training-program-main {\r\n      color: #707070; }\r\n    .box-text-Training-program .li-text-Training-program-main .link-text-Training-program-main:hover {\r\n      color: #c98218; }\r\n  .box-text-Training-program .li-text-main-Training-program-1 {\r\n    background: #b21116; }\r\n    .box-text-Training-program .li-text-main-Training-program-1 .link-text-main-Training-program-1 {\r\n      color: white; }\r\n", ""]);
 
 // exports
 
@@ -94564,6 +94621,66 @@ if(false) {}
 
 /***/ }),
 
+/***/ "./public/css/formCreate/create.css":
+/*!******************************************!*\
+  !*** ./public/css/formCreate/create.css ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/postcss-loader/src??ref--6-2!./create.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./public/css/formCreate/create.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./public/css/paradigm/Paradigm.css":
+/*!******************************************!*\
+  !*** ./public/css/paradigm/Paradigm.css ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/postcss-loader/src??ref--6-2!./Paradigm.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./public/css/paradigm/Paradigm.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./public/css/tintuc/style.css":
 /*!*************************************!*\
   !*** ./public/css/tintuc/style.css ***!
@@ -94573,6 +94690,36 @@ if(false) {}
 
 
 var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/postcss-loader/src??ref--6-2!./style.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./public/css/tintuc/style.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./public/css/training-program/training-program.css":
+/*!**********************************************************!*\
+  !*** ./public/css/training-program/training-program.css ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/postcss-loader/src??ref--6-2!./training-program.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./public/css/training-program/training-program.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -94895,9 +95042,14 @@ function (_Component) {
   _createClass(Index, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["BrowserRouter"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+      var styleObject = {
+        backgroundColor: '#eeeeee'
+      };
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["BrowserRouter"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        style: styleObject
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
         component: _Router__WEBPACK_IMPORTED_MODULE_3__["default"]
-      }));
+      })));
     }
   }]);
 
@@ -95204,6 +95356,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var owl_carousel_dist_assets_owl_theme_default_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(owl_carousel_dist_assets_owl_theme_default_css__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _public_css_enrollment_enrollment_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../public/css/enrollment/enrollment.css */ "./public/css/enrollment/enrollment.css");
 /* harmony import */ var _public_css_enrollment_enrollment_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_public_css_enrollment_enrollment_css__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+var _options;
+
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -95222,6 +95377,8 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 
 
  // import 'react-owl-carousel2/lib/styles.css';
@@ -95229,22 +95386,21 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
+
  // import React from 'react';
 
-var options = {
-  item: 3,
+var options = (_options = {
+  item: 9,
   nav: false,
   autoplay: true,
-  loop: false,
-  autoplayTimeout: 4000,
-  responsive: {
-    1000: {
-      items: 3,
-      loop: true,
-      nav: false
-    }
+  loop: true
+}, _defineProperty(_options, "autoplay", true), _defineProperty(_options, "responsive", {
+  1000: {
+    items: 3,
+    loop: true,
+    nav: false
   }
-};
+}), _options);
 var events = {
   onDragged: function onDragged(event) {},
   onChanged: function onChanged(event) {}
@@ -95264,7 +95420,9 @@ function (_React$Component) {
   _createClass(Enrollment, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "mr-enrollment"
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "container"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
         className: "title-tuyen-sinh"
@@ -95279,125 +95437,139 @@ function (_React$Component) {
         id: "temo",
         ref: "iphone",
         options: options,
-        events: events
+        events: events,
+        className: "owl-theme",
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplaySpeed: 1000
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         id: "0",
         className: "item-img"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+        className: "image-enroll",
         src: __webpack_require__(/*! ../../../../public/images/image-entrollment/code.jpg */ "./public/images/image-entrollment/code.jpg"),
         alt: ""
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
         className: "title-class"
       }, "l\u1EDBp l\u1EADp tr\xECnh web"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "button-enrollment"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-        className: "Text-Button-enroller",
-        href: "#"
-      }, "\u0110\u0103ng K\xED H\u1ECDc"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__["NavLink"], {
+        to: "/DangKy",
+        className: "Text-Button-enroller"
+      }, "\u0110\u0103ng K\xED H\u1ECDc "))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         id: "1",
         className: "item-img"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+        className: "image-enroll",
         src: __webpack_require__(/*! ../../../../public/images/image-entrollment/3D.jpg */ "./public/images/image-entrollment/3D.jpg"),
         alt: ""
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
         className: "title-class"
       }, "thi\u1EBFt k\u1EBF \u0111\u1ED3 h\u1ECDa 3D"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "button-enrollment"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-        className: "Text-Button-enroller",
-        href: "#"
-      }, "\u0110\u0103ng K\xED H\u1ECDc"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__["NavLink"], {
+        to: "/DangKy",
+        className: "Text-Button-enroller"
+      }, "\u0110\u0103ng K\xED H\u1ECDc "))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         id: "2",
         className: "item-img"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+        className: "image-enroll",
         src: __webpack_require__(/*! ../../../../public/images/image-entrollment/2D.jpg */ "./public/images/image-entrollment/2D.jpg"),
         alt: ""
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
         className: "title-class"
       }, "thi\u1EBFt k\u1EBF \u0111\u1ED3 h\u1ECDa 2D"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "button-enrollment"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-        className: "Text-Button-enroller",
-        href: "#"
-      }, "\u0110\u0103ng K\xED H\u1ECDc"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__["NavLink"], {
+        to: "/DangKy",
+        className: "Text-Button-enroller"
+      }, "\u0110\u0103ng K\xED H\u1ECDc "))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         id: "3",
         className: "item-img"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+        className: "image-enroll",
         src: __webpack_require__(/*! ../../../../public/images/image-entrollment/bartender.jpg */ "./public/images/image-entrollment/bartender.jpg"),
         alt: ""
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
         className: "title-class"
       }, "nghi\u1EC7p v\u1EE5 nh\xE0 h\xE0ng pha ch\u1EBF"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "button-enrollment"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-        className: "Text-Button-enroller",
-        href: "#"
-      }, "\u0110\u0103ng K\xED H\u1ECDc"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__["NavLink"], {
+        to: "/DangKy",
+        className: "Text-Button-enroller"
+      }, "\u0110\u0103ng K\xED H\u1ECDc "))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         id: "4",
         className: "item-img"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+        className: "image-enroll",
         src: __webpack_require__(/*! ../../../../public/images/image-entrollment/cook.jpg */ "./public/images/image-entrollment/cook.jpg"),
         alt: ""
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
         className: "title-class"
       }, "ch\u1EBF bi\u1EBFn m\xF3n \u0103n"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "button-enrollment"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-        className: "Text-Button-enroller",
-        href: "#"
-      }, "\u0110\u0103ng K\xED H\u1ECDc"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__["NavLink"], {
+        to: "/DangKy",
+        className: "Text-Button-enroller"
+      }, "\u0110\u0103ng K\xED H\u1ECDc "))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         id: "5",
         className: "item-img"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+        className: "image-enroll",
         src: __webpack_require__(/*! ../../../../public/images/image-entrollment/marketing.jpg */ "./public/images/image-entrollment/marketing.jpg"),
         alt: ""
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
         className: "title-class"
       }, "b\xE1n h\xE0ng v\xE0 marketing"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "button-enrollment"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-        className: "Text-Button-enroller",
-        href: "#"
-      }, "\u0110\u0103ng K\xED H\u1ECDc"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__["NavLink"], {
+        to: "/DangKy",
+        className: "Text-Button-enroller"
+      }, "\u0110\u0103ng K\xED H\u1ECDc "))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         id: "6",
         className: "item-img"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+        className: "image-enroll",
         src: __webpack_require__(/*! ../../../../public/images/image-entrollment/toc.jpg */ "./public/images/image-entrollment/toc.jpg"),
         alt: ""
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
         className: "title-class"
       }, "l\xE0m t\xF3c v\u1EBD m\xF3ng"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "button-enrollment"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-        className: "Text-Button-enroller",
-        href: "#"
-      }, "\u0110\u0103ng K\xED H\u1ECDc"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__["NavLink"], {
+        to: "/DangKy",
+        className: "Text-Button-enroller"
+      }, "\u0110\u0103ng K\xED H\u1ECDc "))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         id: "7",
         className: "item-img"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+        className: "image-enroll",
         src: __webpack_require__(/*! ../../../../public/images/image-entrollment/YCI.jpg */ "./public/images/image-entrollment/YCI.jpg"),
         alt: ""
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
         className: "title-class"
       }, "nghi\u1EC7p v\u1EE5 kh\xE1ch s\u1EA1n 5 sao"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "button-enrollment"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-        className: "Text-Button-enroller",
-        href: "#"
-      }, "\u0110\u0103ng K\xED H\u1ECDc"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__["NavLink"], {
+        to: "/DangKy",
+        className: "Text-Button-enroller"
+      }, "\u0110\u0103ng K\xED H\u1ECDc "))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         id: "8",
         className: "item-img"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+        className: "image-enroll",
         src: __webpack_require__(/*! ../../../../public/images/image-entrollment/video.jpg */ "./public/images/image-entrollment/video.jpg"),
         alt: ""
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
         className: "title-class"
       }, "ch\u1EC9nh s\u1EEFa video"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "button-enrollment"
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-        className: "Text-Button-enroller",
-        href: "#"
-      }, "\u0110\u0103ng K\xED H\u1ECDc")))))));
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__["NavLink"], {
+        to: "/DangKy",
+        className: "Text-Button-enroller"
+      }, "\u0110\u0103ng K\xED H\u1ECDc ")))))));
     }
   }]);
 
@@ -95670,6 +95842,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Main_Main__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Main/Main */ "./resources/js/components/Main/Main.js");
 /* harmony import */ var _Enrollment_Enrollment__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../Enrollment/Enrollment */ "./resources/js/components/Enrollment/Enrollment.js");
 /* harmony import */ var _tintuc_tintuc__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../tintuc/tintuc */ "./resources/js/components/tintuc/tintuc.js");
+/* harmony import */ var _paradigm_Paradigm__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../paradigm/Paradigm */ "./resources/js/components/paradigm/Paradigm.js");
+/* harmony import */ var _training_program_training_program__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../training-program/training-program */ "./resources/js/components/training-program/training-program.js");
+/* harmony import */ var _all_form_formCreate_create__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../all-form/formCreate/create */ "./resources/js/components/all-form/formCreate/create.js");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -95687,6 +95862,9 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+
+
 
 
 
@@ -95732,7 +95910,7 @@ function (_Component) {
   }, {
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Nav_Nav__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Banner_Banner__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Main_Main__WEBPACK_IMPORTED_MODULE_5__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_tintuc_tintuc__WEBPACK_IMPORTED_MODULE_7__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Enrollment_Enrollment__WEBPACK_IMPORTED_MODULE_6__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], null));
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Nav_Nav__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Banner_Banner__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_all_form_formCreate_create__WEBPACK_IMPORTED_MODULE_10__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Main_Main__WEBPACK_IMPORTED_MODULE_5__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_tintuc_tintuc__WEBPACK_IMPORTED_MODULE_7__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Enrollment_Enrollment__WEBPACK_IMPORTED_MODULE_6__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_paradigm_Paradigm__WEBPACK_IMPORTED_MODULE_8__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_training_program_training_program__WEBPACK_IMPORTED_MODULE_9__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], null));
     }
   }]);
 
@@ -95795,67 +95973,71 @@ function (_React$Component) {
   _createClass(Main, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "mr-main"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "container"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-md-12 arrow"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-        id: "bigtitle"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u2726"), "REACH \u0111\xE3 h\u1ED7 tr\u1EE3 \u0111\xE0o t\u1EA1o h\u01A1n + 16.000 h\u1ECDc vi\xEAn. h\u1ECDc ngh\u1EC1 c\xF3 vi\u1EC7t l\xE0m cho c\xE1c b\u1EA1n h\u1ECDc vi\xEAn c\xF3 ho\xE0n c\u1EA3nh kh\xF3 kh\u0103n "))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "row main"
+        className: "title-main "
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u2726"), "REACH \u0111\xE3 h\u1ED7 tr\u1EE3 \u0111\xE0o t\u1EA1o h\u01A1n + 16.000 h\u1ECDc vi\xEAn. h\u1ECDc ngh\u1EC1 c\xF3 vi\u1EC7c l\xE0m cho c\xE1c b\u1EA1n h\u1ECDc vi\xEAn c\xF3 ho\xE0n c\u1EA3nh kh\xF3 kh\u0103n "))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-lg-4 col-md-4 col-sm-6 col-xs-6picture"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "#",
-        className: "sumary-2-4"
+        className: "wraper-image-main"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        className: "image-item-2-4",
+        className: "image-main",
         src: __webpack_require__(/*! ../../../../public/images/image-main/CEO_REACH.png */ "./public/images/image-main/CEO_REACH.png")
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        className: "title-2-4"
+        className: "title-image"
+      }, "1.C\xE2u Chuy\u1EC7n Trung T\xE2m REACH"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-lg-4 col-md-4 col-sm-6 col-xs-6 picture"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "#",
+        className: "wraper-image-main"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: "image-main",
+        src: __webpack_require__(/*! ../../../../public/images/image-main/kiyeu.jpg */ "./public/images/image-main/kiyeu.jpg")
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "title-image"
       }, "2.C\xE2u Chuy\u1EC7n H\u1ECDc Vi\xEAn"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-lg-4 col-md-4 col-sm-6 col-xs-6 picture"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "#",
-        className: "sumary-2-4"
+        className: "wraper-image-main"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        className: "image-item-2-4",
-        src: __webpack_require__(/*! ../../../../public/images/image-main/kiyeu.jpg */ "./public/images/image-main/kiyeu.jpg")
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        className: "title-2-4"
-      }, "3.C\xE2u Chuy\u1EC7n H\u1ECDc Vi\xEAn"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-lg-4 col-md-4 col-sm-6 col-xs-6 picture"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "#",
-        className: "sumary-2-4"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        className: "image-item-2-4",
+        className: "image-main",
         src: __webpack_require__(/*! ../../../../public/images/image-main/marketing.jpg */ "./public/images/image-main/marketing.jpg")
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        className: "title-2-4"
-      }, "4.Ph\u1EA3n H\u1ED3i C\u1EE7a H\u1ECDc Vi\xEAn"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-lg-4 col-md-4 col-sm-6 col-xs-6 picture"
+        className: "title-image"
+      }, "3.Ph\u1EA3n H\u1ED3i C\u1EE7a H\u1ECDc Vi\xEAn")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-lg-6 col-md-6 col-sm-12 col-xs-12 picture"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "#",
-        className: "sumary-2-4"
+        className: "wraper-image-main"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        className: "image-item-2-4",
+        className: "image-main",
         src: __webpack_require__(/*! ../../../../public/images/image-main/Reach.jpg */ "./public/images/image-main/Reach.jpg")
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        className: "title-2-4"
-      }, "5.C\xE2u chuy\u1EC7n C\u1EE7a C\u1EF1u H\u1ECDc Vi\xEAn"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-lg-4 col-md-4 col-sm-6 col-xs-6 picture"
+        className: "title-image"
+      }, "4.C\xE2u chuy\u1EC7n C\u1EE7a C\u1EF1u H\u1ECDc Vi\xEAn"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-lg-6 col-md-6 col-sm-12 col-xs-12 picture"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "#",
-        className: "sumary-2-4"
+        className: "wraper-image-main"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        className: "image-item-2-4",
+        className: "image-main",
         src: __webpack_require__(/*! ../../../../public/images/image-main/time.jpg */ "./public/images/image-main/time.jpg")
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        className: "title-2-4"
-      }, "6. K\u1EF7 Ni\u1EC7m Ch\u1EC9a S\u1EBB"))))));
+        className: "title-image"
+      }, "5. K\u1EF7 Ni\u1EC7m Ch\u1EC9a S\u1EBB"))))));
     }
   }]);
 
@@ -96377,6 +96559,267 @@ function (_React$Component) {
 
 /***/ }),
 
+/***/ "./resources/js/components/all-form/formCreate/create.js":
+/*!***************************************************************!*\
+  !*** ./resources/js/components/all-form/formCreate/create.js ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _public_css_formCreate_create_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../public/css/formCreate/create.css */ "./public/css/formCreate/create.css");
+/* harmony import */ var _public_css_formCreate_create_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_public_css_formCreate_create_css__WEBPACK_IMPORTED_MODULE_2__);
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+
+
+
+
+var Create =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(Create, _React$Component);
+
+  function Create() {
+    _classCallCheck(this, Create);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(Create).apply(this, arguments));
+  }
+
+  _createClass(Create, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+        rel: "stylesheet",
+        href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "container"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "d-flex justify-content-center"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "wrapper-form-update"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+        action: "",
+        method: "POST"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Create"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+        "for": "Title-Create"
+      }, "Title"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "form-group"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        type: "text",
+        id: "Title-Create",
+        className: "form-control",
+        placeholder: "title.."
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+        "for": "Content-Create"
+      }, "Content Edit"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "form-group"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("textarea", {
+        id: "Content",
+        name: "Content-Create ",
+        className: "form-control",
+        placeholder: "Content Edit",
+        rows: "7"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        type: "submit",
+        className: "Create"
+      }, "Create"))))))));
+    }
+  }]);
+
+  return Create;
+}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (Create);
+
+/***/ }),
+
+/***/ "./resources/js/components/paradigm/Paradigm.js":
+/*!******************************************************!*\
+  !*** ./resources/js/components/paradigm/Paradigm.js ***!
+  \******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _public_css_paradigm_Paradigm_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../public/css/paradigm/Paradigm.css */ "./public/css/paradigm/Paradigm.css");
+/* harmony import */ var _public_css_paradigm_Paradigm_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_public_css_paradigm_Paradigm_css__WEBPACK_IMPORTED_MODULE_2__);
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+
+
+
+
+var Paradigm =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(Paradigm, _React$Component);
+
+  function Paradigm() {
+    _classCallCheck(this, Paradigm);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(Paradigm).apply(this, arguments));
+  }
+
+  _createClass(Paradigm, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+        rel: "stylesheet",
+        href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "container"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-md-3"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "slidebar-Paradigm"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        type: "button",
+        className: "button-slidebar-Paradigm-1",
+        href: "#"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "text-button-slidebar-Paradigm"
+      }, "M\xF4 H\xECnh")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        type: "button",
+        className: "button-slidebar-Paradigm-2",
+        href: "#"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "text-button-slidebar-Paradigm"
+      }, "Ch\u01B0\u01A1ng Tr\xECnh \u0110\xE0o T\u1EA1o"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "advertisement-slidebar-Paradigm-main-1"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "advertisement-slidebar-Paradigm-body-1"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+        className: "h3-advertisement-slidebar-Paradigm-1"
+      }, "N\u1ED9p h\u1ED3 s\u01A1 x\xE9t tuy\u1EC3n tr\u1EF1c ti\u1EBFp"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "p-advertisement-slidebar-Paradigm"
+      }, "Vui l\xF2ng \u0111\u0103ng k\xFD th\xF4ng tin ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "T\u01B0 v\u1EA5n s\u1EBD g\u1ECDi \u0111i\u1EC7n cho b\u1EA1n", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "sau 24h , xin c\u1EA3m \u01A1n!", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "a-advertisement-slidebar-Paradigm-1",
+        href: "#"
+      }, "N\u1ED9p h\u1ED3 s\u01A1 \u25BA")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "advertisement-slidebar-Paradigm-main-2"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "advertisement-slidebar-Paradigm-body-2"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+        className: "h3-advertisement-slidebar-Paradigm-2"
+      }, "T\xECm v\u0103n ph\xF2ng tuy\u1EC3n sinh", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "a-advertisement-slidebar-Paradigm-2",
+        href: "#"
+      }, "follow me \u25BA"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-md-9"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "box-text-Paradigm"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "title-Paradigm"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+        className: "h1-title-Paradigm-1"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "span-title-Paradigm"
+      }, "\u25C6"), " M\xF4 H\xECnh \u0110\xE0o T\u1EA1o")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "text-Paradigm-1"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "text-title-Paradigm-1"
+      }, "M\xF4 h\xECnh \u0110\xE0o t\u1EA1o v\xE0 Gi\u1EDBi thi\u1EC7u vi\u1EC7c l\xE0m", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "M\xF4 h\xECnh c\u1EE7a ch\xFAng t\xF4i bao g\u1ED3m: m\u1ED9t kh\xF3a \u0111\xE0o t\u1EA1o ngh\u1EC1 ng\u1EAFn h\u1EA1n v\u1EDBi c\xE1c k\u0129 n\u0103ng chuy\xEAn m\xF4n, \u0111\xE0o t\u1EA1o k\u0129 n\u0103ng s\u1ED1ng v\xE0 Ti\u1EBFng Anh; sau kh\xF3a h\u1ECDc, ch\xFAng t\xF4i s\u1EBD gi\u1EDBi thi\u1EC7u vi\u1EC7c l\xE0m v\xE0 c\xF3 nh\u1EEFng h\u1ED7 tr\u1EE3 theo sau d\xE0nh cho h\u1ECDc vi\xEAn.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Nh\u1EEFng gi\xE1o vi\xEAn h\u01B0\u1EDBng d\u1EABn am hi\u1EC3u v\u1EC1 ng\xE0nh ngh\u1EC1 \u0111\xE0o t\u1EA1o v\xE0 t\xE2m huy\u1EBFt cung c\u1EA5p kh\xF4ng ch\u1EC9 c\xE1c l\xFD thuy\u1EBFt c\u1EA7n thi\u1EBFt m\xE0 c\u1EA3 nh\u1EEFng hi\u1EC3u bi\u1EBFt th\u1EF1c t\u1EBF cho nh\u1EEFng c\xF4ng vi\u1EC7c kh\xF4ng \u0111\xF2i h\u1ECFi tr\xECnh \u0111\u1ED9 trong c\xE1c ng\xE0nh \u0111ang ph\xE1t tri\u1EC3n.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Sau m\u1ED9t kh\xF3a h\u1ECDc k\xE9o d\xE0i 3 th\xE1ng, h\u1ECDc vi\xEAn \u0111\u01B0\u1EE3c th\u1EF1c h\xE0nh c\xE1c k\u0129 n\u0103ng trong \u0111i\u1EC1u ki\u1EC7n l\xE0m vi\u1EC7c th\u1EF1c t\u1EBF tr\u01B0\u1EDBc khi \u0111\u01B0\u1EE3c gi\u1EDBi thi\u1EC7u vi\u1EC7c l\xE0m, c\xE1c em c\u0169ng \u0111\u01B0\u1EE3c hu\u1EA5n luy\u1EC7n k\u0129 n\u0103ng xin vi\u1EC7c.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Kh\xF3a h\u1ECDc v\u1EC1 k\u0129 n\u0103ng m\u1EC1m trong ch\u01B0\u01A1ng tr\xECnh c\u1EE7a ch\xFAng t\xF4i quan tr\u1ECDng kh\xF4ng k\xE9m k\u0129 n\u0103ng chuy\xEAn m\xF4n bao g\u1ED3m k\u0129 n\u0103ng giao ti\u1EBFp, gi\u1EA3i quy\u1EBFt v\u1EA5n \u0111\u1EC1, t\xE2m th\u1EBF s\u1EB5n s\xE0ng l\xE0m vi\u1EC7c, qu\u1EA3n l\xFD th\u1EDDi gian v\xE0 t\xE0i ch\xEDnh, k\u0129 n\u0103ng giao ti\u1EBFp c\xE1 nh\xE2n v\xE0 nh\u1EEFng th\xE1i \u0111\u1ED9 c\u1EA7n thi\u1EBFt nh\u1EB1m gi\xFAp c\xE1c em r\xE8n luy\u1EC7n nh\u1EEFng kh\u1EA3 n\u0103ng v\xE0 chu\u1EA9n m\u1EF1c \u0111\u1EA1o \u0111\u1EE9c m\xE0 c\xE1c nh\xE0 tuy\u1EC3n d\u1EE5ng \u0111\u1EC1 cao. Ch\u01B0\u01A1ng tr\xECnh \u0111\xE0o t\u1EA1o t\u1EA1i REACH:", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "M\xF4 h\xECnh \u0111\xE0o t\u1EA1o bao g\u1ED3m 9 b\u01B0\u1EDBc:", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Ch\xFAng t\xF4i t\u1ED5 ch\u1EE9c kh\u1EA3o s\xE1t th\u1ECB tr\u01B0\u1EDDng \u0111\u1EC3 x\xE1c \u0111\u1ECBnh nh\u1EEFng c\xF4ng vi\u1EC7c c\xE1c nh\xE0 tuy\u1EC3n d\u1EE5ng \u0111ang tuy\u1EC3n v\xE0 ch\xFAng t\xF4i c\xF3 th\u1EC3 \u0111\xE0o t\u1EA1o h\u1ECDc vi\xEAn trong m\u1ED9t kh\xF3a h\u1ECDc ng\u1EAFn h\u1EA1n.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Ch\xFAng t\xF4i x\xE2y d\u1EF1ng nh\u1EEFng kh\xF3a h\u1ECDc d\u1EF1a tr\xEAn nhu c\u1EA7u c\u1EE7a th\u1ECB tr\u01B0\u1EDDng v\xE0 n\u0103ng l\u1EF1c c\u1EE7a h\u1ECDc vi\xEAn. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Ch\xFAng t\xF4i tuy\u1EC3n d\u1EE5ng nh\u1EEFng ng\u01B0\u1EDDi \u0111\u1EE7 tr\xECnh \u0111\u1ED9 \u0111\u1EC3 gi\u1EA3ng d\u1EA1y c\xE1c h\u1ECDc vi\xEAn. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Ch\xFAng t\xF4i t\u1ED5 ch\u1EE9c nh\u1EEFng s\u1EF1 ki\u1EC7n qu\u1EA3ng b\xE1 \u0111\u1EC3 chi\xEAu sinh, l\u1EF1a ch\u1ECDn h\u1ED3 s\u01A1 v\xE0 m\u1EDDi h\u1ECDc vi\xEAn theo h\u1ECDc. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Kh\u1EDFi \u0111\u1EA7u m\u1ED9t kh\xF3a h\u1ECDc, ch\xFAng t\xF4i t\u1ED5 ch\u1EE9c nh\u1EEFng l\u1EDBp h\u1ECDc ph\u1EE5c v\u1EE5 cho c\xE1c ng\xE0nh ngh\u1EC1 ho\u1EB7c c\xE1c l\u0129nh v\u1EF1c kh\xE1c nhau v\u1EDBi gi\xE1o tr\xECnh c\u1EADp nh\u1EADt k\u1EBFt h\u1EE3p c\u1EA3 l\xFD thuy\u1EBFt v\xE0 th\u1EF1c h\xE0nh c\u1EA7n thi\u1EBFt. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "T\u1EA5t c\u1EA3 h\u1ECDc vi\xEAn c\u1EE7a ch\xFAng t\xF4i \u0111\u1EC1u \u0111\u01B0\u1EE3c \u0111\xE0o t\u1EA1o Ti\u1EBFng Anh, k\u1EF9 n\u0103ng h\xE0nh x\u1EED v\xE0 giao ti\u1EBFp \u1EDF n\u01A1i l\xE0m vi\u1EC7c. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Ch\xFAng t\xF4i \u0111\u1EBFn th\u0103m h\u1ECDc vi\xEAn \u0111\xE3 t\u1ED1t nghi\u1EC7p t\u1EA1i n\u01A1i l\xE0m vi\u1EC7c trong 6 th\xE1ng sau khi k\u1EBFt th\xFAc kh\xF3a h\u1ECDc \u0111\u1EC3 h\u1ED7 tr\u1EE3 c\xE1c em trong c\xF4ng vi\u1EC7c. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Nh\xE0 tuy\u1EC3n d\u1EE5ng ph\u1EA3n h\u1ED3i ch\u1EA5t l\u01B0\u1EE3ng c\xF4ng vi\u1EC7c c\u1EE7a c\xE1c h\u1ECDc vi\xEAn t\u1EDBi ch\xFAng t\xF4i. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Ch\xFAng t\xF4i c\u1EA3i thi\u1EC7n gi\xE1o tr\xECnh cho c\xE1c kh\xF3a h\u1ECDc ti\u1EBFp theo.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "icon-Paradigm"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+        className: "nav"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "nav-item li-text-main-Paradigm-1"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "nav-link disabled link-text-main-Paradigm-1",
+        href: "#"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        "class": "fa fa-slideshare"
+      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "nav-item li-text-Paradigm-main"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "nav-link link-text-Paradigm-main",
+        href: "#"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        "class": "fa fa-facebook"
+      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "nav-item li-text-Paradigm-main"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "nav-link link-text-Paradigm-main",
+        href: "#"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        "class": "fa fa-youtube-play"
+      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "nav-item li-text-Paradigm-main"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "nav-link link-text-Paradigm-main",
+        href: "#"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        "class": "fa fa-twitter"
+      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "nav-item li-text-Paradigm-main"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "nav-link link-text-Paradigm-main",
+        href: "#"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        "class": "fa fa-instagram"
+      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "nav-item li-text-Paradigm-main"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "nav-link link-text-Paradigm-main",
+        href: "#"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        "class": "fa fa-pinterest-p"
+      }))))))))));
+    }
+  }]);
+
+  return Paradigm;
+}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (Paradigm);
+
+/***/ }),
+
 /***/ "./resources/js/components/tintuc/tintuc.js":
 /*!**************************************************!*\
   !*** ./resources/js/components/tintuc/tintuc.js ***!
@@ -96505,6 +96948,221 @@ function (_React$Component) {
 }(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (Tintuc);
+
+/***/ }),
+
+/***/ "./resources/js/components/training-program/training-program.js":
+/*!**********************************************************************!*\
+  !*** ./resources/js/components/training-program/training-program.js ***!
+  \**********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _public_css_training_program_training_program_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../public/css/training-program/training-program.css */ "./public/css/training-program/training-program.css");
+/* harmony import */ var _public_css_training_program_training_program_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_public_css_training_program_training_program_css__WEBPACK_IMPORTED_MODULE_2__);
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+
+
+
+
+var Training =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(Training, _React$Component);
+
+  function Training() {
+    _classCallCheck(this, Training);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(Training).apply(this, arguments));
+  }
+
+  _createClass(Training, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+        rel: "stylesheet",
+        href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "container"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "row"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-md-3"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "slidebar-Training-program"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        type: "button",
+        className: "button-slidebar-Training-program-1",
+        href: "#"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "text-button-slidebar-Training-program"
+      }, "M\xF4 H\xECnh")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        type: "button",
+        className: "button-slidebar-Training-program-2",
+        href: "#"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "text-button-slidebar-Training-program"
+      }, "Ch\u01B0\u01A1ng Tr\xECnh \u0110\xE0o T\u1EA1o"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "advertisement-slidebar-Training-program-main-1"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "advertisement-slidebar-Training-program-body-1"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+        className: "h3-advertisement-slidebar-Training-program-1"
+      }, "N\u1ED9p h\u1ED3 s\u01A1 x\xE9t tuy\u1EC3n tr\u1EF1c ti\u1EBFp"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "p-advertisement-slidebar-Training-program"
+      }, "Vui l\xF2ng \u0111\u0103ng k\xFD th\xF4ng tin ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "T\u01B0 v\u1EA5n s\u1EBD g\u1ECDi \u0111i\u1EC7n cho b\u1EA1n", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "sau 24h , xin c\u1EA3m \u01A1n!", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "a-advertisement-slidebar-Training-program-1",
+        href: "#"
+      }, "N\u1ED9p h\u1ED3 s\u01A1 \u25BA")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "advertisement-slidebar-Training-program-main-2"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "advertisement-slidebar-Training-program-body-2"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+        className: "h3-advertisement-slidebar-Training-program-2"
+      }, "T\xECm v\u0103n ph\xF2ng tuy\u1EC3n sinh", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "a-advertisement-slidebar-Training-program-2",
+        href: "#"
+      }, "follow me \u25BA"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "col-md-9"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "box-text-Training-program"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "title-Training-program"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+        className: "h1-title-Training-program-1"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: "span-title-Training-program"
+      }, "\u25C6"), " C\xE1c ch\u01B0\u01A1ng tr\xECnh \u0111\xE0o t\u1EA1o t\u1EA1i REACH")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "text-box-Training-program-1"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "text-Training-program-1"
+      }, "REACH t\u1ED5 ch\u1EE9c ch\u01B0\u01A1ng tr\xECnh \u0111\xE0o t\u1EA1o trong c\xE1c l\u0129nh v\u1EF1c thanh ni\xEAn c\xF3 th\u1EC3 h\u1ECDc \u0111\u01B0\u1EE3c k\u0129 n\u0103ng nhanh ch\xF3ng v\xE0 \u1EDF nh\u1EEFng n\u01A1i c\xF3 nhu c\u1EA7u vi\u1EC7c l\xE0m. Kh\xF3a h\u1ECDc c\u1EE7a ch\xFAng t\xF4i \u0111\u01B0\u1EE3c h\u1ED7 tr\u1EE3 t\u1EEB 80-100% h\u1ECDc ph\xED cho h\u1ECDc vi\xEAn thu\u1ED9c nh\xF3m \u0111\u1ED1i t\u01B0\u1EE3ng m\u1EE5c ti\xEAu.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Ch\u01B0\u01A1ng tr\xECnh c\u1EE7a REACH kh\xF4ng ch\u1EC9 l\xE0 c\xF4ng t\xE1c \u0111\xE0o t\u1EA1o. Ch\xFAng t\xF4i quan t\xE2m \u0111\u1EBFn t\u1EEBng em h\u1ECDc vi\xEAn, coi m\u1ED7i em l\xE0 m\u1ED9t th\xE0nh vi\xEAn c\u1EE7a gia \u0111\xECnh REACH. Ch\xFAng t\xF4i ti\u1EBFp t\u1EE5c \u0111\u1ED3ng h\xE0nh c\xF9ng c\xE1c em trong 6 th\xE1ng ti\u1EBFp theo sau kh\xF3a h\u1ECDc \u0111\u1EC3 h\u1ED7 tr\u1EE3 c\xE1c em t\xECm ki\u1EBFm v\xE0 duy tr\xEC c\xF4ng vi\u1EC7c. \u0110\xE2y ch\xEDnh l\xE0 \u0111i\u1EC1u cho ch\u01B0\u01A1ng tr\xECnh c\u1EE7a ch\xFAng t\xF4i th\u1EADt s\u1EF1 \u0111\u1EB7c bi\u1EC7t.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Ch\u01B0\u01A1ng tr\xECnh \u0111\xE0o t\u1EA1o c\u1EE7a REACH bao g\u1ED3m:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "text-Training-program-2"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("sup", {
+        className: "sup-text-Training-program-1"
+      }, "*"), " \u0110\xE0o t\u1EA1o th\u01B0\u1EDDng xuy\xEAn: c\xE1c l\u1EDBp 3- 6 th\xE1ng"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "text-title-Training-program-1"
+      }, "Nghi\u1EC7p v\u1EE5  B\xE0n Bar"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "text-sm-Training-program-1"
+      }, "Chuy\xEAn ng\xE0nh nh\xE0 h\xE0ng, bao g\u1ED3m quy tr\xECnh v\u1EC7 sinh, ph\u1EE5c v\u1EE5 th\u1EE9c \u0103n, s\u1EAFp \u0111\u1EB7t b\xE0n \u0103n, nh\u1EADn g\u1ECDi m\xF3n, ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "ch\u1EBF bi\u1EBFn v\xE0 ph\u1EE5c v\u1EE5 \u0111\u1ED3 u\u1ED1ng", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "\u0110\xE0o t\u1EA1o cho nh\xE2n vi\xEAn ph\u1EE5c v\u1EE5 kh\xE1ch s\u1EA1n v\xE0 qu\xE1n \u0103n v\xE0 nh\xE2n vi\xEAn qu\u1EA7y bar"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "text-title-Training-program-1"
+      }, "Nghi\u1EC7p v\u1EE5 bu\u1ED3ng ph\xF2ng"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "text-sm-Training-program-1"
+      }, "Ph\u1EE5c v\u1EE5 ph\xF2ng, d\xE0nh cho nh\u1EEFng c\xF4ng vi\u1EC7c t\u1EA1i c\xE1c kh\xE1ch s\u1EA1n v\xE0 nh\xE0 kh\xE1ch bao g\u1ED3m: d\u1ECDn ph\xF2ng, k\u1EF9 n\u0103ng ph\u1EE5c v\u1EE5 kh\xE1ch h\xE0ng, quy tr\xECnh x\u1EED l\xFD v\u1EC7 sinh v\xE0 an to\xE0n"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "text-title-Training-program-1"
+      }, "B\xE1n h\xE0ng Marketing"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "text-sm-Training-program-1"
+      }, "C\xE1c k\u0129 n\u0103ng, th\xE1i \u0111\u1ED9 v\xE0 ph\u1EA9m ch\u1EA5t c\u1EA7n thi\u1EBFt trong ng\xE0nh b\xE1n h\xE0ng v\xE0 ti\u1EBFp th\u1ECB \u0111\u1EC3 ph\u1EE5c v\u1EE5 cho c\xE1c c\xF4ng vi\u1EC7c trong ng\xE0nh du l\u1ECBch v\xE0 b\xE1n l\u1EBB, \u0111\u1EB7c bi\u1EC7t d\xE0nh cho l\u0129nh v\u1EF1c ch\u0103m s\xF3c kh\xE1ch h\xE0ng; c\xE1c ki\u1EBFn th\u1EE9c v\u1EC1 c\xE1c lo\u1EA1i s\u1EA3n ph\u1EA9m kh\xE1c nhau, qu\u1EA3n l\xFD kho h\xE0ng, ki\u1EC3m k\xEA h\xE0ng t\u1ED3n kho b\xE0n giao ti\u1EC1n m\u1EB7t v\xE0 s\u1EED d\u1EE5ng m\xE1y \u0111\u1ED5i ti\u1EC1n m\u1EB7t."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "text-title-Training-program-1"
+      }, "Thi\u1EBFt k\u1EBF \u0110\u1ED3 h\u1ECDa"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "text-sm-Training-program-1"
+      }, "Thi\u1EBFt k\u1EBF \u0110\u1ED3 h\u1ECDa, s\u1EED d\u1EE5ng c\xE1c g\xF3i ph\u1EA7n m\u1EC1m chuy\xEAn d\u1EE5ng, c\xE1c k\u0129 n\u0103ng thi\u1EBFt k\u1EBF web c\u01A1 b\u1EA3n, d\xE0nh cho c\xE1c c\xF4ng vi\u1EC7c trong c\xE1c c\xF4ng ty thi\u1EBFt k\u1EBF \u0111\u1ED3 h\u1ECDa."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "text-title-Training-program-1"
+      }, "Ch\u0103m s\xF3c da v\xE0 trang \u0111i\u1EC3m"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "text-sm-Training-program-1"
+      }, "Gi\xFAp c\xE1c n\u1EEF thanh ni\xEAn t\xECm ki\u1EBFm nh\u1EEFng vi\u1EC7c l\xE0m trong ng\xE0nh c\xF4ng ngh\u1EC7 l\xE0m \u0111\u1EB9p \u0111ang ng\xE0y c\xE0ng ph\xE1t tri\u1EC3n."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "text-title-Training-program-1"
+      }, "Thi\u1EBFt k\u1EBF \u0111\u1ED3 h\u1ECDa 3D"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "text-sm-Training-program-1"
+      }, "T\u1EADp trung \u0111\xE0o t\u1EA1o d\u1EF1ng \u0111\u1ED3 h\u1ECDa 3D b\u1EB1ng ph\u1EA7n m\u1EC1m 3D smax"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "text-title-Training-program-1"
+      }, "L\u1EADp tr\xECnh web"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "text-sm-Training-program-1"
+      }, "T\u1EA1o n\u1EC1n t\u1EA3ng gi\xFAp c\xE1c em th\xE0nh c\xF4ng trong vi\u1EC7c t\u1EF1 thi\u1EBFt k\u1EBF v\xE0 t\xECm vi\u1EC7c l\u1EADp tr\xECnh vi\xEAn n\u1EC1n t\u1EA3ng php"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "text-title-Training-program-1"
+      }, "K\u1EF9 thu\u1EADt Ch\u1EBF bi\u1EBFn m\xF3n \u0103n"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "text-sm-Training-program-1"
+      }, "H\u1ED7 tr\u1EE3 c\xE1c em y\xEAu th\xEDch v\xE0 \u0111am m\xEA theo ngh\u1EC1 b\u1EBFp, n\u1EA5u \u0103n"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "text-title-Training-program-1"
+      }, "L\xE0m t\xF3c v\xE0 V\u1EBD m\xF3ng"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "text-sm-Training-program-1"
+      }, "Gi\xFAp c\xE1c b\u1EA1n n\u1EEFa \u0111\u01B0\u1EE3c \u0111\xE0o t\u1EA1o v\xE0 h\u01B0\u1EDBng d\u1EABn v\u1EC1 ngh\u1EC1 t\xF3c v\xE0 v\u1EBD m\xF3ng c\u01A1 b\u1EA3n"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "text-title-Training-program-1"
+      }, "Ch\u01B0\u01A1ng tr\xECnh S\xE1ng ki\u1EBFn thanh ni\xEAn l\u1EADp nghi\u1EC7p"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "text-sm-Training-program-1"
+      }, "(Nghi\u1EC7p v\u1EE5 kh\xE1ch s\u1EA1n 5 sao YCI)", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "REACH k\u1EBFt h\u1EE3p v\u1EDBi kh\xE1ch s\u1EA1n 5 sao \u1EDF H\xE0 N\u1ED9i v\xE0 H\u1ED3 Ch\xED Minh t\u1EA1o \u0111i\u1EC1u ki\u1EC7n cho c\xE1c b\u1EA1n thanh ni\xEAn \u0111\u01B0\u1EE3c h\u1ECDc th\u1EF1c t\u1EBF c\xE1c ng\xE0nh ngh\u1EC1 t\u1EA1i c\xE1c kh\xE1ch s\u1EA1n \u0111\xF3."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "text-Training-program-2"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("sup", {
+        className: "sup-text-Training-program-1"
+      }, "*"), " D\u1EF1 \xE1n \u0111\u1EB7c bi\u1EC7t (Step Up)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "text-sm-Training-program-1"
+      }, "Cung c\u1EA5p ch\u01B0\u01A1ng tr\xECnh \u0111\xE0o t\u1EA1o v\u1EC1 K\u1EF9 n\u0103ng s\u1ED1ng, ti\u1EBFng Anh, V\u1EADn \u0111\u1ED9ng th\u1EC3 ch\u1EA5t, \u0110\u1ECBnh h\u01B0\u1EDBng di chuy\u1EC3n, K\u1EF9 n\u0103ng ngh\u1EC1 nghi\u1EC7p cho ng\u01B0\u1EDDi b\u1ECB khi\u1EBFm th\u1ECB"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "icon-Training-program"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+        className: "nav"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "nav-item li-text-main-Training-program-1"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "nav-link disabled link-text-main-Training-program-1",
+        href: "#"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        "class": "fa fa-slideshare"
+      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "nav-item li-text-Training-program-main"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "nav-link link-text-Training-program-main",
+        href: "#"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        "class": "fa fa-facebook"
+      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "nav-item li-text-Training-program-main"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "nav-link link-text-Training-program-main",
+        href: "#"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        "class": "fa fa-youtube-play"
+      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "nav-item li-text-Training-program-main"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "nav-link link-text-Training-program-main",
+        href: "#"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        "class": "fa fa-twitter"
+      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "nav-item li-text-Training-program-main"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "nav-link link-text-Training-program-main",
+        href: "#"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        "class": "fa fa-instagram"
+      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "nav-item li-text-Training-program-main"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "nav-link link-text-Training-program-main",
+        href: "#"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+        "class": "fa fa-pinterest-p"
+      }))))))))));
+    }
+  }]);
+
+  return Training;
+}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (Training);
 
 /***/ }),
 

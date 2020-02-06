@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Avenir Next",arial,serif; }
+
+.slidebar-Paradigm .button-slidebar-Paradigm-1 {
+  padding: 10px 164px 0 25px;
+  background: #eb991b;
+  margin-bottom: 5px;
+  text-decoration: none; }
+.slidebar-Paradigm .button-slidebar-Paradigm-1:hover {
+  background: #c98218; }
+.slidebar-Paradigm .button-slidebar-Paradigm-2 {
+  padding: 10px 59px 0 27px;
+  background: #b60505;
+  margin-bottom: 5px;
+  text-decoration: none; }
+.slidebar-Paradigm .button-slidebar-Paradigm-2:hover {
+  background: #eb991b; }
+.slidebar-Paradigm .text-button-slidebar-Paradigm {
+  text-transform: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff; }
+
+.advertisement-slidebar-Paradigm-main-1 {
+  background: #fd7522;
+  position: relative;
+  color: #fff;
+  padding: 30px 19px;
+  margin-top: 15px;
+  font-family: "Avenir Next",arial,serif; }
+  .advertisement-slidebar-Paradigm-main-1 .h3-advertisement-slidebar-Paradigm-1 {
+    font-size: 24px;
+    font-weight: 100; }
+  .advertisement-slidebar-Paradigm-main-1 .a-advertisement-slidebar-Paradigm-1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none; }
+
+.advertisement-slidebar-Paradigm-main-2 {
+  background: #1683d4;
+  position: relative;
+  color: #fff;
+  padding: 30px 25px;
+  margin-top: 10px; }
+  .advertisement-slidebar-Paradigm-main-2 .a-advertisement-slidebar-Paradigm-2 {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none; }
+
+.box-text-Paradigm {
+  background: #fff;
+  border: 1px solid rgba(173, 173, 173, 0.322); }
+  .box-text-Paradigm .title-Paradigm {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    font-family: "Avenir Next",arial,serif; }
+    .box-text-Paradigm .title-Paradigm .h1-title-Paradigm-1 {
+      font-weight: 700;
+      color: rgba(120, 120, 120, 0.767); }
+    .box-text-Paradigm .title-Paradigm .span-title-Paradigm {
+      color: #eb991b; }
+  .box-text-Paradigm .text-title-Paradigm-1 {
+    margin-left: 80px;
+    font-family: "Avenir Next",arial,serif; }
+  .box-text-Paradigm .icon-Paradigm {
+    padding-top: 50px;
+    padding-left: 30px; }
+  .box-text-Paradigm .li-text-Paradigm-main {
+    background: #ddd; }
+    .box-text-Paradigm .li-text-Paradigm-main .link-text-Paradigm-main {
+      color: #707070; }
+    .box-text-Paradigm .li-text-Paradigm-main .link-text-Paradigm-main:hover {
+      color: #c98218; }
+  .box-text-Paradigm .li-text-main-Paradigm-1 {
+    background: #b21116; }
+    .box-text-Paradigm .li-text-main-Paradigm-1 .link-text-main-Paradigm-1 {
+      color: white; }
+
+/*# sourceMappingURL=Paradigm.css.map */

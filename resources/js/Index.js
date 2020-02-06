@@ -8,10 +8,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 class Index extends Component {
+
   render() {
+    const styleObject = {backgroundColor: '#eeeeee'}
+
+    
     return (
+      
       <BrowserRouter>
+      <div style={styleObject}>
         <Route component={Main} />
+        </div>
       </BrowserRouter>
 
     );

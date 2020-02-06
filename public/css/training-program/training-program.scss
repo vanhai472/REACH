@@ -1,0 +1,132 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Avenir Next",arial,serif;
+
+}
+// Đây là phần bao ngoài của phần slide
+.slidebar-Training-program{
+    // Đây là phần 1
+        .button-slidebar-Training-program-1{
+            padding:10px 164px 0 25px;
+            background: #b60505;
+            margin-bottom: 5px;
+            text-decoration: none;
+        }
+    //Đây là hover của phần 1
+        .button-slidebar-Training-program-1:hover{
+            background: #eb991b;
+        }
+    //Đây là phần 2
+        .button-slidebar-Training-program-2{
+            padding:10px 59px 0 27px;
+            background: #eb991b;
+            margin-bottom: 5px;
+            text-decoration: none;
+        }
+    //Đây là hover phần 2
+        .button-slidebar-Training-program-2:hover{
+            background:  #c98218;
+        } 
+         .text-button-slidebar-Training-program{
+            text-transform: none;
+            font-size: 18px;
+            font-weight: 500;
+            color:#fff;
+        }
+    }
+    .advertisement-slidebar-Training-program-main-1{
+        background: #fd7522;
+        position: relative;
+        color:#fff;
+        padding:30px 19px;
+        margin-top:15px;
+        font-family: "Avenir Next",arial,serif;
+        .h3-advertisement-slidebar-Training-program-1{
+            font-size:24px;
+            font-weight: 100;
+            
+        }
+        .a-advertisement-slidebar-Training-program-1{
+            font-weight: 700;
+            text-transform: uppercase;
+            color:#fff;
+            text-decoration: none;
+        }
+    
+    }
+    .advertisement-slidebar-Training-program-main-2{
+        background: #1683d4;
+        position: relative;
+        color: #fff;
+        padding:30px 25px;
+        margin-top:10px;
+        .a-advertisement-slidebar-Training-program-2{
+            font-weight: 700;
+            text-transform: uppercase;
+            color:#fff;
+            text-decoration: none;
+        }
+    }
+//Đây là phần box-text-Training-program
+.box-text-Training-program{
+    background: #fff;
+    border: 1px solid rgba(173, 173, 173, 0.322);
+    .h1-title-Training-program-1{
+        font-family: "Avenir Next",arial,serif;
+        font-weight: 700;
+        color:rgba(120, 120, 120, 0.767);
+        .span-title-Training-program{
+            color:#fd7522;
+        }
+    }
+    .text-Training-program-1{
+        margin-left:40px;
+        font-family: "Avenir Next",arial,serif;
+    }
+    .text-Training-program-2{
+        margin-left:50px;
+        font-size: 25px;
+        font-weight: 600;
+        font-family: "Avenir Next",arial,serif;
+        .sup-text-Training-program-1{
+            font-size: 15px;
+            color: #eb991b;
+        }
+    }
+    .text-title-Training-program-1{
+        margin-left: 70px;
+        font-weight: 600;
+        font-size: 17;
+        font-family: "Avenir Next",arial,serif;
+    }
+    .text-sm-Training-program-1{
+        font-family: "Avenir Next",arial,serif;
+        margin-left: 70px;
+    }
+//Đây là phần icon-Training-program
+    .icon-Training-program{
+        padding-top:50px;
+        padding-left:30px;
+    }
+    .li-text-Training-program-main{
+        background: #ddd   ;
+        .link-text-Training-program-main{
+            color:rgb(112, 112, 112);
+        }
+//Đây là phần link được hover
+    .link-text-Training-program-main:hover{
+        color:#c98218;
+    }
+    }
+    .li-text-main-Training-program-1{
+        background: #b21116;
+        .link-text-main-Training-program-1{
+            color:white;
+        }
+    }
+}
+   
